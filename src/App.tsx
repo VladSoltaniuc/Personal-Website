@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Mail, Phone, MapPin, Github, Linkedin, ExternalLink, Menu, X } from 'lucide-react';
-
 interface Project {
   id: number;
   title: string;
@@ -22,8 +21,8 @@ const Portfolio: React.FC = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with user authentication, payment integration, and admin dashboard.",
+      title: "NAME HERE",
+      description: "DESCRIPTION HERE",
       technologies: ["React", "Node.js", "MongoDB", "Stripe"],
       demoUrl: "#",
       githubUrl: "#",
@@ -31,22 +30,76 @@ const Portfolio: React.FC = () => {
     },
     {
       id: 2,
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates and team collaboration features.",
-      technologies: ["React", "TypeScript", "Firebase", "Material-UI"],
-      demoUrl: "#",
-      githubUrl: "#",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=250&fit=crop"
+      title: "Area31",
+      description: "This was a team project made for 3ITC contest during my university years, we ended up winning",
+      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+      demoUrl: "https://drive.google.com/open?id=11jN18tnosL6dEgZSzkS5FxZbXoKf_0TV",
+      githubUrl: "https://github.com/VladSoltaniuc/Area31",
+      image: "/Area1.jpg"
     },
     {
       id: 3,
-      title: "Weather Dashboard",
-      description: "A responsive weather application with location-based forecasts and interactive charts.",
-      technologies: ["React", "Chart.js", "OpenWeather API", "Tailwind CSS"],
+      title: "NAME HERE",
+      description: "DESCRIPTION HERE",
+      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
       demoUrl: "#",
       githubUrl: "#",
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=400&h=250&fit=crop"
-    }
+      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop"
+    },
+    {
+      id: 4,
+      title: "NAME HERE",
+      description: "DESCRIPTION HERE",
+      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+      demoUrl: "#",
+      githubUrl: "#",
+      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop"
+    },
+    {
+      id: 5,
+      title: "NAME HERE",
+      description: "DESCRIPTION HERE",
+      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+      demoUrl: "#",
+      githubUrl: "#",
+      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop"
+    },
+    {
+      id: 6,
+      title: "NAME HERE",
+      description: "DESCRIPTION HERE",
+      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+      demoUrl: "#",
+      githubUrl: "#",
+      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop"
+    },
+    {
+      id: 7,
+      title: "NAME HERE",
+      description: "DESCRIPTION HERE",
+      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+      demoUrl: "#",
+      githubUrl: "#",
+      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop"
+    },
+    {
+      id: 8,
+      title: "NAME HERE",
+      description: "DESCRIPTION HERE",
+      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+      demoUrl: "#",
+      githubUrl: "#",
+      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop"
+    },
+    {
+      id: 9,
+      title: "NAME HERE",
+      description: "DESCRIPTION HERE",
+      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+      demoUrl: "#",
+      githubUrl: "#",
+      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop"
+    },
   ];
 
   const skills: Skill[] = [
@@ -55,7 +108,15 @@ const Portfolio: React.FC = () => {
     { name: "Node.js", level: 80 },
     { name: "Python", level: 75 },
     { name: "CSS/Tailwind", level: 85 },
-    { name: "Git/GitHub", level: 90 }
+    { name: "Git/GitHub", level: 90 },
+    { name: "SKILL NAME", level: 90 },
+    { name: "SKILL NAME", level: 90 },
+    { name: "SKILL NAME", level: 90 },
+    { name: "SKILL NAME", level: 90 },
+    { name: "SKILL NAME", level: 90 },
+    { name: "SKILL NAME", level: 90 },
+    { name: "SKILL NAME", level: 90 },
+    { name: "SKILL NAME", level: 90 },
   ];
 
   const scrollToSection = (sectionId: string): void => {
@@ -272,16 +333,16 @@ const Portfolio: React.FC = () => {
                     ))}
                   </div>
                   <div className="flex space-x-4">
-                    {project.demoUrl && (
-                      <a href={project.demoUrl} className="flex items-center text-green-400 hover:text-blue-400 transition-colors">
-                        <ExternalLink size={16} className="mr-1" />
-                        Demo
-                      </a>
-                    )}
                     {project.githubUrl && (
-                      <a href={project.githubUrl} className="flex items-center text-green-400 hover:text-blue-400 transition-colors">
+                      <a href={project.githubUrl} target="_blank" className="flex items-center text-green-400 hover:text-blue-400 transition-colors">
                         <Github size={16} className="mr-1" />
                         Code
+                      </a>
+                    )}
+                    {project.demoUrl && (
+                      <a href={project.demoUrl} target="_blank" className="flex items-center text-green-400 hover:text-blue-400 transition-colors">
+                        <ExternalLink size={16} className="mr-1" />
+                        Demo
                       </a>
                     )}
                   </div>
