@@ -1,1 +1,6 @@
-/* You can leave this empty since we're using Tailwind classes */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Clean and simple - no extra CSS needed! */
+/* All styling is done with Tailwind classes in the component */
