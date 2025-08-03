@@ -21,17 +21,17 @@ const Portfolio: React.FC = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: "A.I. Sentiment Analysis",
-      description: "This software uses A.I. in order to detect the feeling a certain user has based on the text analized. It is usable in any language since I integrated it with Google Translate and it is perfect for bussy days where you receive messages left and right. Just have the A.I. analize your messages and detect wether they have Negative, Neutral or Positive feelings. Now you know to focus on those Negative ones because they are the priority.",
-      technologies: ["A.I.", "Python", "HuggingFace", "GoogleTranslate"],
-      githubUrl: "",
-      detailsUrl: "",
-      image: "/AI.jpg"
+      title: "A.I. Sentiment Analysis [WIP learn more about the front end and how it was made + Upload Project to GitHub + Add Links]",
+      description: "This software uses an A.I. model to detect the sentiment/feeling a certain user has based on the text written. It is usable in any language since I integrated it with Google Translate and it is perfect for bussy days where you receive messages left and right. Just have the A.I. analize your messages and detect wether they have Negative, Neutral or Positive feelings. Now you know to focus on those Negative ones because they are the priority.",
+      technologies: ["A.I. Model", "Python", "HuggingFace", "GoogleTranslate"],
+      githubUrl: "#",
+      detailsUrl: "#",
+      image: "/Sentiment.JPG"
     },
     {
       id: 2,
       title: "Dissertation Thesis - Disambiguation Degree: 9.40",
-      description: "I've conducted research into the field of A.I. machine learning. This software is ment to prove the concept and usage of Word Disambiguation by search engines such as Google. When you hear the word 'Bat' do you think of a baseball bat or a nocturnal animal? This softwre identifies the meaning of the word 'Bat' by analizing the context of the sentaince it is found in.",
+      description: "I've conducted research into the field of A.I. Machine Learning. This software is ment to prove the concept and usage of Word Disambiguation by search engines such as Google. When you hear the word 'Bat' do you think of a baseball bat or a nocturnal animal? This softwre identifies the meaning of the word 'Bat' by analizing the context of the sentaince it is found in.",
       technologies: ["Python", "NLP Tools (NLTK)", "Tokenization"],
       githubUrl: "https://github.com/VladSoltaniuc/Query-Dezambiguization",
       detailsUrl: "https://github.com/VladSoltaniuc/Query-Dezambiguization/blob/master/Soltaniuc-Vlad-Documentatie%20Disertatie.pdf",
@@ -39,11 +39,11 @@ const Portfolio: React.FC = () => {
     },
     {
       id: 3,
-      title: "Number Prediction",
-      description: "I've conducted research into the field of A.I. machine learning. This software is ment to prove the concept and usage of Word Disambiguation by search engines such as Google. When you hear the word 'Bat' do you think of a baseball bat or a nocturnal animal? This softwre identifies the meaning of the word 'Bat' by analizing the context of the sentaince it is found in.",
-      technologies: ["Python", "NLP Tools (NLTK)", "Tokenization"],
-      githubUrl: "https://github.com/VladSoltaniuc/Query-Dezambiguization",
-      detailsUrl: "https://github.com/VladSoltaniuc/Query-Dezambiguization/blob/master/Soltaniuc-Vlad-Documentatie%20Disertatie.pdf",
+      title: "Number Prediction [WIP Upload project to GitHub + Add Links]",
+      description: "This software uses an A.I. model in order to predict numbers from 0 to 9 from pictures of hand written numbers. We all have a diferent way to write numbers by hand, such as 1, 4 and 7. It aims to solve confusion by analizing the handwriting and guessing the most likely outcome.",
+      technologies: ["A.I. Model", "Python", "MNIST Dataset"],
+      githubUrl: "#",
+      detailsUrl: "#",
       image: "/AI.jpg"
     },
     
@@ -57,7 +57,7 @@ const Portfolio: React.FC = () => {
     {
       id: 5,
       title: "Amazon Price Checker",
-      description: "Software that checks Amazon price listings for the selected item. When the item goes below a certain choosen value, the user is informed of the oprotunity to buy it for a low price. I was researching inflation and price fluctuation, which gave me this idea. I see an similar oportunity here for Food Ordering Apps.",
+      description: "Software that checks Amazon price listings for the selected item. When the item goes below a certain choosen value, the user is informed via email of the oprotunity to buy it for a low price. I was researching inflation and price fluctuation, which gave me this idea. I see an similar oportunity here for Food Ordering Apps.",
       technologies: ["JavaScript", "Mailchimp"],
       githubUrl: "https://github.com/VladSoltaniuc/Amazon-Price-Checker",
       detailsUrl: "https://github.com/VladSoltaniuc/Amazon-Price-Checker/blob/main/EmailReciever.JPG",
@@ -65,15 +65,15 @@ const Portfolio: React.FC = () => {
     },
     {
       id: 6,
-      title: "University Microsercives",
-      description: "University management system, with features such as: enrollment, student dashboard, professor administration, scheduler, notifications, Import/Export etc. Extensive number of API routes using the Next.js standard and TypeORM conventions. This app covers everything related to a University flow of work.",
+      title: "University Microservices",
+      description: "University management system, with features such as: enrollment, student dashboard, professor administration, scheduler, notifications, Import/Export etc. Extensive number of API routes using the Next.js standard and TypeORM conventions. This app covers everything related to a University's flow of work.",
       technologies: ["Next.js", "TypeORM", "Typescript", "API", "PostgreSQL"],
       image: "/Confidential.png"
     },
     {
       id: 7,
       title: "Weather APP",
-      description: "Software for checking the temperature, chances of rain, wind-speed in real time. Using OpenWeather API, which gathers data live from weather stations. It features a Select2 type searchbox that allows the user to search by city name.",
+      description: "Software for checking the temperature, chances of rain and wind-speed in real time. Using Open Weather API, which gathers data live from weather stations. It features a Select2 type searchbox that allows the user to search by city name.",
       technologies: ["OpenWeatherMap API", "HTML", "JavaScript", "CSS"],
       githubUrl: "https://github.com/VladSoltaniuc/Weather-App",
       detailsUrl: "https://github.com/VladSoltaniuc/Weather-App/blob/main/Weather%20APP.JPG",
@@ -82,62 +82,43 @@ const Portfolio: React.FC = () => {
     {
       id: 8,
       title: "Sales CRM",
-      description: "Cloud Software designed to help companies organize their data. Offering multi-tennant Invoicing, Stocks, Finance, Notifications, Logs, Import/Export.",
+      description: "Cloud Software designed to help companies organize their data. Offering multi-tennant Invoicing, Stocks, Finance, Notifications, Logs, Import/Export etc. It is modularized and sections can be enable/disabled based on user requirements via roles and permissions.",
       technologies: [".Net", "C#", "API", "SQL", "HTML", "JavaScript", "CSS"],
       image: "/Confidential.png"
     },
     {
       id: 9,
       title: "Car Helper",
-      description: "Cloud Software designed to manage Car information, such as distance traveled, care plate number, VIN, repair history and integrated to send data towards the official API entity.",
+      description: "Cloud Software designed to manage Car information, such as distance traveled, care plate number, VIN and repair history. It is integrated to send data towards the official API entity upon service inspection.",
       technologies: [".Net", "C#", "API", "HTML", "SQL", "JavaScript", "CSS"],
       image: "/Confidential.png"
     },
     {
       id: 10,
       title: "Area31",
-      description: "Arward winning team project made for 3ITC's programmers contest during my university years.",
-      technologies: ["Unreal Engine 4", "Blueprints", "UE Build System"],
+      description: "Arward winning project made for 3ITC's programmers contest. It features a laser gun that interacts diferently based on the surface you shoot at. After introduceing the played through a short tutorial, you are faced with a series of puzzles where you have to use your wit and imagination to pass. Can you succeed? And more importantly, will you find the hidden Golden Trophy? Click on 'Details' for dowload instructions",
+      technologies: ["Unreal Engine 4", "UE Build System", "Blueprints"],
       githubUrl: "https://github.com/VladSoltaniuc/Area31",
       detailsUrl: "https://github.com/VladSoltaniuc/Area31/blob/master/HOW%20TO%20GET%20THE%20GAME-%20GOOGLE%20DRIVE.txt",
       image: "/Area1.jpg"
     },
     {
       id: 11,
-      title: "Cubesain (OBS upload video on gitbug, way to fun)",
-      description: "A race against time, a game where you play as a cube going faster and faster, trying to avoid obstacles and gather points along the way. Will you survive until the end? Or will your time run out?",
-      technologies: ["Unity Engine", "C#"],
+      title: "Cubesain (OBS upload video on gitbug, way to fun) [WIP]",
+      description: "A race against time, a game where you play as a cube going faster and faster, trying to avoid obstacles and gather points along the way. Will you survive until the end? Or will your time run out? Click on 'Details' and then 'View raw' to dowload the installer",
+      technologies: ["Unity 2020.3", "C#"],
       githubUrl: "https://github.com/VladSoltaniuc/CUBSAIN",
       detailsUrl: "https://github.com/VladSoltaniuc/CUBSAIN/blob/master/CUBSAIN%20setup%20(x64).exe",
       image: "/Cubesain.jpg"
     },
-    
     {
-      id: 12,
-      title: "Area31",
-      description: "Arward winning team project made for 3ITC's programmers contest during my university years.",
-      technologies: ["Unreal Engine 4", "Blueprints", "UE Build System"],
-      githubUrl: "https://github.com/VladSoltaniuc/Area31",
-      detailsUrl: "https://github.com/VladSoltaniuc/Area31/blob/master/HOW%20TO%20GET%20THE%20GAME-%20GOOGLE%20DRIVE.txt",
-      image: "/Area1.jpg"
-    },
-    {
-      id: 13,
-      title: "Area31",
-      description: "Arward winning team project made for 3ITC's programmers contest during my university years.",
-      technologies: ["Unreal Engine 4", "Blueprints", "UE Build System"],
-      githubUrl: "https://github.com/VladSoltaniuc/Area31",
-      detailsUrl: "https://github.com/VladSoltaniuc/Area31/blob/master/HOW%20TO%20GET%20THE%20GAME-%20GOOGLE%20DRIVE.txt",
-      image: "/Area1.jpg"
-    },
-    {
-      id: 14,
-      title: "Cubesain (OBS upload video on gitbug, way to fun)",
-      description: "A race against time, a game where you play as a cube going faster and faster, trying to avoid obstacles and gather points along the way. Will you survive until the end? Or will your time run out?",
-      technologies: ["Unity Engine", "C#"],
-      githubUrl: "https://github.com/VladSoltaniuc/CUBSAIN",
-      detailsUrl: "https://github.com/VladSoltaniuc/CUBSAIN/blob/master/CUBSAIN%20setup%20(x64).exe",
-      image: "/Cubesain.jpg"
+      id: 11,
+      title: "Coming Soon",
+      description: "-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+      technologies: [],
+      githubUrl: "",
+      detailsUrl: "",
+      image: "/ComingSoon.png"
     },
   ];
 
@@ -276,7 +257,7 @@ const Portfolio: React.FC = () => {
                 </p>
                 <br />
                 <p className="text-gray-300 text-lg leading-relaxed">
-                  I have over <b>2 years of experience</b> in which I've created solutions for multiple fields,
+                  I have over <b>2 years of professional experience</b> in which I've created solutions for multiple fields,
                   be it <b>Security</b>, <b>Education</b>, <b>Medical</b>, <b>Commercial</b> etc. A good Developer means more than just writing code,
                   we need to have a time analytic thinking.
                   <br />
@@ -395,7 +376,7 @@ const Portfolio: React.FC = () => {
       {/* Skills Section */}
       <section id="skills" className="py-20 px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-bold text-white mb-12 text-center">Skills</h2>
+          <h2 className="text-4xl font-bold text-white mb-12 text-center">Skills [WIP]</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {skills.map((skill) => (
               <div key={skill.name} className="bg-slate-800/80 backdrop-blur-md rounded-xl p-6 border border-slate-700/50 shadow-xl">
@@ -418,7 +399,7 @@ const Portfolio: React.FC = () => {
       {/* Contact Section */}
       <section id="contact" className="py-20 px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-bold text-white mb-12 text-center">Get In Touch</h2>
+          <h2 className="text-4xl font-bold text-white mb-12 text-center">Get In Touch [WIP]</h2>
           <div className="bg-slate-800/80 backdrop-blur-md rounded-xl p-8 border border-slate-700/50 shadow-xl">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div>
