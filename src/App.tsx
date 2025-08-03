@@ -203,47 +203,47 @@ const Portfolio: React.FC = () => {
           <h2 className="text-4xl font-bold text-white mb-12 text-center">Quotes I will always remember</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-slate-800/80 backdrop-blur-md rounded-xl p-6 border border-slate-700/50 shadow-xl">
-              <div className="text-6xl text-blue-400 mb-4">"</div>
+              <div className="text-6xl text-green-400 mb-4">"</div>
               <p className="text-gray-300 text-lg italic mb-4">
                 "The road ahead is a hard one, but becoming a Developer unlocks endless posibilities." (Translated)
               </p>
-              <p className="text-blue-400 font-medium">— Dana Schiopu</p>
+              <p className="text-green-400 font-medium">— Dana Schiopu</p>
             </div>
             <div className="bg-slate-800/80 backdrop-blur-md rounded-xl p-6 border border-slate-700/50 shadow-xl">
-              <div className="text-6xl text-blue-400 mb-4">"</div>
+              <div className="text-6xl text-green-400 mb-4">"</div>
               <p className="text-gray-300 text-lg italic mb-4">
                 "If it seems like a common problem, most likely someone already found the solution." (Translated)
               </p>
-              <p className="text-blue-400 font-medium">— Vlad Lepadatu</p>
+              <p className="text-green-400 font-medium">— Vlad Lepadatu</p>
             </div>
             <div className="bg-slate-800/80 backdrop-blur-md rounded-xl p-6 border border-slate-700/50 shadow-xl">
-              <div className="text-6xl text-blue-400 mb-4">"</div>
+              <div className="text-6xl text-green-400 mb-4">"</div>
               <p className="text-gray-300 text-lg italic mb-4">
                 "With only a few lines of code, your vision can become reality." (Translated)
               </p>
-              <p className="text-blue-400 font-medium">— Scheau Constantin</p>
+              <p className="text-green-400 font-medium">— Scheau Constantin</p>
             </div>
             <div className="bg-slate-800/80 backdrop-blur-md rounded-xl p-6 border border-slate-700/50 shadow-xl">
-              <div className="text-6xl text-blue-400 mb-4">"</div>
+              <div className="text-6xl text-green-400 mb-4">"</div>
               <p className="text-gray-300 text-lg italic mb-4">
                 "Creativity is crucial, but let's not reinvent the wheel." (Translated)
               </p>
-              <p className="text-blue-400 font-medium">— Andrei Ristea </p>
+              <p className="text-green-400 font-medium">— Andrei Ristea </p>
             </div>
             <div className="bg-slate-800/80 backdrop-blur-md rounded-xl p-6 border border-slate-700/50 shadow-xl">
-              <div className="text-6xl text-blue-400 mb-4">"</div>
+              <div className="text-6xl text-green-400 mb-4">"</div>
               <p className="text-gray-300 text-lg italic mb-4">
                 "Anything can be achived given time and determination." (Translated)
               </p>
-              <p className="text-blue-400 font-medium">— Vlad Soltaniuc</p>
+              <p className="text-green-400 font-medium">— Vlad Soltaniuc</p>
             </div>
             
             <div className="bg-slate-800/80 backdrop-blur-md rounded-xl p-6 border border-slate-700/50 shadow-xl">
-              <div className="text-6xl text-blue-400 mb-4">"</div>
+              <div className="text-6xl text-green-400 mb-4">"</div>
               <p className="text-gray-300 text-lg italic mb-4">
                 "Force push to main."
               </p>
-              <p className="text-blue-400 font-medium">— Steve Jobs</p>
+              <p className="text-green-400 font-medium">— Steve Jobs</p>
             </div>
           </div>
         </div>
