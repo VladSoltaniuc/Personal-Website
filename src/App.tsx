@@ -133,17 +133,20 @@ const Portfolio: React.FC = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             {/* Left Side - Hero/Introduction */}
-            <div className="text-center lg:text-left">
-              <div className="w-32 h-32 rounded-full bg-gradient-to-r from-blue-600 to-blue-400 mx-auto lg:mx-0 mb-8 flex items-center justify-center shadow-xl">
-                <span className="text-4xl font-bold text-white">VD</span>
+            <div className="text-center lg:text-center">
+              <div className="w-full">
+                <div className="w-32 h-32 rounded-full bg-gradient-to-r from-blue-600 to-blue-400 mx-auto mb-8 flex items-center justify-center shadow-xl">
+                  <span className="text-4xl font-bold text-white">VD</span>
+                </div>
               </div>
+
               <h1 className="text-5xl md:text-7xl font-bold text-white mb-4">
                 Vlad Doe
               </h1>
               <p className="text-xl md:text-2xl text-gray-300 mb-8">
                 Full Stack Developer
               </p>
-              <div className="flex justify-center lg:justify-start space-x-6 mb-8">
+              <div className="flex justify-center lg:justify-center space-x-6 mb-8">
                 <a href="#" className="text-gray-300 hover:text-white transition-colors hover:scale-110 transform">
                   <Github size={24} />
                 </a>
@@ -161,24 +164,36 @@ const Portfolio: React.FC = () => {
                 View My Work
               </button>
             </div>
-
             {/* Right Side - About Me */}
             <div id="about">
-              <h2 className="text-4xl font-bold text-white mb-8 text-center lg:text-left">About Me</h2>
               <div className="bg-slate-800/80 backdrop-blur-md rounded-xl p-8 border border-slate-700/50 shadow-xl">
                 <p className="text-gray-300 text-lg leading-relaxed mb-6">
-                  I'm a passionate full-stack developer with over 3 years of experience creating 
-                  web applications that solve real-world problems. I love working with modern 
-                  technologies and building user-friendly interfaces that provide exceptional 
-                  user experiences.
+                  Software Developing isn't just a <b>Job</b>, it's a <b>Hobby</b>, a choice of <b>Lifestyle</b> to 
+                  always be improving. At the moment I'm having lots of fun learning about <b>A.I. models</b> and the math underneath it all.
+                </p>
+                <p className="text-gray-300 text-lg leading-relaxed mb-6">
+                  I have over <b>2 years of experience</b> in which I've created solutions for multiple fields,
+                  be it <b>Security</b>, <b>Education</b>, <b>Medical</b>, <b>Commercial</b> etc. A good developer means more than just writing code,
+                  we need to have a time analytic thinking.
+                </p><ul className="text-gray-300 text-lg leading-relaxed mb-2 list-disc list-inside">
+                  <li><b>How long</b> will this feature take to implement?</li>
+                  <li>Is there already <b>an existing solution</b> in need of tweaking?</li>
+                </ul>
+                <p className="text-gray-300 text-lg leading-relaxed mb-6">
+                  You would be surprised how much <b>time</b> you can <b>save</b> when we ask the <b>Right Questions</b>. That is why proper Analysis is a <b>Must-Have</b> before diving into code.
                 </p>
                 <p className="text-gray-300 text-lg leading-relaxed">
-                  When I'm not coding, you can find me exploring new technologies, contributing 
-                  to open-source projects, or enjoying outdoor activities. I believe in continuous 
-                  learning and staying up-to-date with the latest industry trends.
+                  When I'm not coding, you can find me playing my guitar, recording song covers or enjoying outdoor activities.
                 </p>
               </div>
             </div>
+              {/* Be creative, but don't reinvent the wheel */}
+              <h2 className="text-4xl font-bold text-white mb-8 text-center lg:text-center">"Quote1"</h2>
+              <h2 className="text-4xl font-bold text-white mb-8 text-center lg:text-center">"Quote2"</h2>
+              <h2 className="text-4xl font-bold text-white mb-8 text-center lg:text-center">"Quote3"</h2>
+              <h2 className="text-4xl font-bold text-white mb-8 text-center lg:text-center">"Quote4"</h2>
+              <h2 className="text-4xl font-bold text-white mb-8 text-center lg:text-center">"Quote5"</h2>
+              <h2 className="text-4xl font-bold text-white mb-8 text-center lg:text-center">"Quote6"</h2>
           </div>
         </div>
       </section>
@@ -307,6 +322,12 @@ const Portfolio: React.FC = () => {
       <footer className="py-8 px-4 border-t border-gray-700">
         <div className="max-w-7xl mx-auto text-center">
           <p className="text-gray-400">
+            
+                <p className="text-gray-300 text-lg leading-relaxed mb-6">
+                  <code className="text-2xl font-bold text-white mb-8 text-center lg:text-center">
+                    greatProject = [(userOriented + resultFocused) × (askingQuestions + teamplay)] ÷ timeAvailable
+                  </code>
+                </p>
             © 2025 Vlad Doe. All rights reserved.
           </p>
         </div>
