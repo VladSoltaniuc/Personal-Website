@@ -136,15 +136,15 @@ const Portfolio: React.FC = () => {
             <div className="text-center lg:text-center">
               <div className="w-full">
                 <div className="w-32 h-32 rounded-full bg-gradient-to-r from-green-600 to-dark-400 mx-auto mb-8 flex items-center justify-center shadow-xl">
-                  <span className="text-4xl font-bold text-white">VD</span>
+                  <span className="text-4xl font-bold text-white">VS</span>
                 </div>
               </div>
 
               <h1 className="text-5xl md:text-7xl font-bold text-white mb-4">
-                Vlad Doe
+                Vlad Soltaniuc
               </h1>
               <p className="text-xl md:text-2xl text-gray-300 mb-8">
-                Full Stack Developer
+                Developer
               </p>
               <div className="flex justify-center lg:justify-center space-x-6 mb-8">
                 <a href="#" className="text-gray-300 hover:text-white transition-colors hover:scale-110 transform">
@@ -324,11 +324,11 @@ const Portfolio: React.FC = () => {
                 <div className="space-y-4">
                   <div className="flex items-center">
                     <Mail className="text-green-400 mr-3" size={20} />
-                    <span className="text-gray-300">vlad.doe@example.com</span>
+                    <span className="text-gray-300">i.vlad55@yahoo.com</span>
                   </div>
                   <div className="flex items-center">
                     <Phone className="text-green-400 mr-3" size={20} />
-                    <span className="text-gray-300">+40 (555) 123-4567</span>
+                    <span className="text-gray-300">(+40)728848773</span>
                   </div>
                   <div className="flex items-center">
                     <MapPin className="text-green-400 mr-3" size={20} />
@@ -377,7 +377,7 @@ const Portfolio: React.FC = () => {
                     greatProject = [(userOriented + resultFocused) × (askingQuestions + teamplay)] ÷ timeAvailable
                   </code>
                 </p>
-            © 2025 Vlad Doe. All rights reserved.
+            © 2025 Vlad Soltaniuc. All rights reserved.
           </p>
         </div>
       </footer>
