@@ -135,7 +135,7 @@ const Portfolio: React.FC = () => {
             {/* Left Side - Hero/Introduction */}
             <div className="text-center lg:text-center">
               <div className="w-full">
-                <div className="w-32 h-32 rounded-full bg-gradient-to-r from-blue-600 to-blue-400 mx-auto mb-8 flex items-center justify-center shadow-xl">
+                <div className="w-32 h-32 rounded-full bg-gradient-to-r from-green-600 to-dark-400 mx-auto mb-8 flex items-center justify-center shadow-xl">
                   <span className="text-4xl font-bold text-white">VD</span>
                 </div>
               </div>
@@ -159,7 +159,7 @@ const Portfolio: React.FC = () => {
               </div>
               <button
                 onClick={() => scrollToSection('projects')}
-                className="bg-gradient-to-r from-blue-600 to-blue-500 text-white px-8 py-3 rounded-lg hover:from-blue-700 hover:to-blue-600 transition-all transform hover:scale-105 font-medium shadow-lg"
+                className="bg-gradient-to-r from-green-600 to-dark-500 text-white px-8 py-3 rounded-lg hover:from-green-700 hover:to-dark-600 transition-all transform hover:scale-105 font-medium shadow-lg"
               >
                 View My Work
               </button>
@@ -215,20 +215,20 @@ const Portfolio: React.FC = () => {
                   <p className="text-gray-300 mb-4">{project.description}</p>
                   <div className="flex flex-wrap gap-2 mb-4">
                     {project.technologies.map((tech) => (
-                      <span key={tech} className="bg-blue-600/20 text-blue-300 px-3 py-1 rounded-full text-sm border border-blue-500/30">
+                      <span key={tech} className="bg-green-600/20 text-green-400 px-3 py-1 rounded-full text-sm border border-green-400/30">
                         {tech}
                       </span>
                     ))}
                   </div>
                   <div className="flex space-x-4">
                     {project.demoUrl && (
-                      <a href={project.demoUrl} className="flex items-center text-blue-400 hover:text-blue-300 transition-colors">
+                      <a href={project.demoUrl} className="flex items-center text-green-400 hover:text-blue-400 transition-colors">
                         <ExternalLink size={16} className="mr-1" />
                         Demo
                       </a>
                     )}
                     {project.githubUrl && (
-                      <a href={project.githubUrl} className="flex items-center text-blue-400 hover:text-blue-300 transition-colors">
+                      <a href={project.githubUrl} className="flex items-center text-green-400 hover:text-blue-400 transition-colors">
                         <Github size={16} className="mr-1" />
                         Code
                       </a>
@@ -254,7 +254,7 @@ const Portfolio: React.FC = () => {
                 </div>
                 <div className="w-full bg-gray-700 rounded-full h-3">
                   <div 
-                    className="bg-gradient-to-r from-blue-600 to-blue-400 h-3 rounded-full transition-all duration-1000"
+                    className="bg-gradient-to-r from-green-600 to-green-400 h-3 rounded-full transition-all duration-1000"
                     style={{ width: `${skill.level}%` }}
                   ></div>
                 </div>
@@ -274,15 +274,15 @@ const Portfolio: React.FC = () => {
                 <h3 className="text-2xl font-bold text-white mb-6">Contact Information</h3>
                 <div className="space-y-4">
                   <div className="flex items-center">
-                    <Mail className="text-blue-400 mr-3" size={20} />
+                    <Mail className="text-green-400 mr-3" size={20} />
                     <span className="text-gray-300">vlad.doe@example.com</span>
                   </div>
                   <div className="flex items-center">
-                    <Phone className="text-blue-400 mr-3" size={20} />
+                    <Phone className="text-green-400 mr-3" size={20} />
                     <span className="text-gray-300">+40 (555) 123-4567</span>
                   </div>
                   <div className="flex items-center">
-                    <MapPin className="text-blue-400 mr-3" size={20} />
+                    <MapPin className="text-green-400 mr-3" size={20} />
                     <span className="text-gray-300">Bucharest, Romania</span>
                   </div>
                 </div>
@@ -293,21 +293,21 @@ const Portfolio: React.FC = () => {
                   <input
                     type="text"
                     placeholder="Your Name"
-                    className="w-full px-4 py-3 bg-slate-700/80 border border-slate-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-blue-500 transition-colors"
+                    className="w-full px-4 py-3 bg-slate-700/80 border border-slate-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-green-500 transition-colors"
                   />
                   <input
                     type="email"
                     placeholder="Your Email"
-                    className="w-full px-4 py-3 bg-slate-700/80 border border-slate-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-blue-500 transition-colors"
+                    className="w-full px-4 py-3 bg-slate-700/80 border border-slate-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-green-500 transition-colors"
                   />
                   <textarea
                     placeholder="Your Message"
                     rows={4}
-                    className="w-full px-4 py-3 bg-slate-700/80 border border-slate-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-blue-500 transition-colors"
+                    className="w-full px-4 py-3 bg-slate-700/80 border border-slate-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-green-500 transition-colors"
                   ></textarea>
                   <button
                     onClick={() => alert('Message sent! (This is a demo)')}
-                    className="w-full bg-gradient-to-r from-blue-600 to-blue-500 text-white py-3 rounded-lg hover:from-blue-700 hover:to-blue-600 transition-all transform hover:scale-105 font-medium shadow-lg"
+                    className="w-full bg-gradient-to-r from-green-600 to-green-500 text-white py-3 rounded-lg hover:from-green-700 hover:to-green-600 transition-all transform hover:scale-105 font-medium shadow-lg"
                   >
                     Send Message
                   </button>
