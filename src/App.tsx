@@ -21,10 +21,12 @@ const Portfolio: React.FC = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: "Security Tracker",
-      description: "Software designed to organize and catalogue, events, planning and resources, featuring interactive maps and data vizualization. Me and the team had to develop this project localy at the site of our client, completely offline, which proved it's own set of chalanges, I loved working on this project.",
-      technologies: [".Net", "C#", "API", "MongoDB", "Leaflet", "OpenStreetMap", "HTML", "JavaScript", "CSS"],
-      image: "/Confidential.png"
+      title: "A.I. Sentiment Analysis",
+      description: "This software uses A.I. in order to detect the feeling a certain user has based on the text analized. It is usable in any language since I integrated it with Google Translate and it is perfect for bussy days where you receive messages left and right. Just have the A.I. analize your messages and detect wether they have Negative, Neutral or Positive feelings. Now you know to focus on those Negative ones because they are the priority.",
+      technologies: ["A.I.", "Python", "HuggingFace", "GoogleTranslate"],
+      githubUrl: "",
+      detailsUrl: "",
+      image: "/AI.jpg"
     },
     {
       id: 2,
@@ -37,6 +39,23 @@ const Portfolio: React.FC = () => {
     },
     {
       id: 3,
+      title: "Number Prediction",
+      description: "I've conducted research into the field of A.I. machine learning. This software is ment to prove the concept and usage of Word Disambiguation by search engines such as Google. When you hear the word 'Bat' do you think of a baseball bat or a nocturnal animal? This softwre identifies the meaning of the word 'Bat' by analizing the context of the sentaince it is found in.",
+      technologies: ["Python", "NLP Tools (NLTK)", "Tokenization"],
+      githubUrl: "https://github.com/VladSoltaniuc/Query-Dezambiguization",
+      detailsUrl: "https://github.com/VladSoltaniuc/Query-Dezambiguization/blob/master/Soltaniuc-Vlad-Documentatie%20Disertatie.pdf",
+      image: "/AI.jpg"
+    },
+    
+    {
+      id: 4,
+      title: "Security Tracker",
+      description: "Software designed to organize and catalogue, events, planning and resources, featuring interactive maps and data vizualization. Me and the team had to develop this project localy at the site of our client, completely offline, which proved it's own set of chalanges, I loved working on this project.",
+      technologies: [".Net", "C#", "API", "MongoDB", "Leaflet", "OpenStreetMap", "HTML", "JavaScript", "CSS"],
+      image: "/Confidential.png"
+    },
+    {
+      id: 5,
       title: "Amazon Price Checker",
       description: "Software that checks Amazon price listings for the selected item. When the item goes below a certain choosen value, the user is informed of the oprotunity to buy it for a low price. I was researching inflation and price fluctuation, which gave me this idea. I see an similar oportunity here for Food Ordering Apps.",
       technologies: ["JavaScript", "Mailchimp"],
@@ -45,14 +64,14 @@ const Portfolio: React.FC = () => {
       image: "/EmailReciverContents.jpeg"
     },
     {
-      id: 4,
+      id: 6,
       title: "University Microsercives",
       description: "University management system, with features such as: enrollment, student dashboard, professor administration, scheduler, notifications, Import/Export etc. Extensive number of API routes using the Next.js standard and TypeORM conventions. This app covers everything related to a University flow of work.",
       technologies: ["Next.js", "TypeORM", "Typescript", "API", "PostgreSQL"],
       image: "/Confidential.png"
     },
     {
-      id: 5,
+      id: 7,
       title: "Weather APP",
       description: "Software for checking the temperature, chances of rain, wind-speed in real time. Using OpenWeather API, which gathers data live from weather stations. It features a Select2 type searchbox that allows the user to search by city name.",
       technologies: ["OpenWeatherMap API", "HTML", "JavaScript", "CSS"],
@@ -61,38 +80,19 @@ const Portfolio: React.FC = () => {
       image: "/Weather APP.jpeg"
     },
     {
-      id: 6,
+      id: 8,
       title: "Sales CRM",
       description: "Cloud Software designed to help companies organize their data. Offering multi-tennant Invoicing, Stocks, Finance, Notifications, Logs, Import/Export.",
       technologies: [".Net", "C#", "API", "SQL", "HTML", "JavaScript", "CSS"],
       image: "/Confidential.png"
     },
     {
-      id: 7,
+      id: 9,
       title: "Car Helper",
       description: "Cloud Software designed to manage Car information, such as distance traveled, care plate number, VIN, repair history and integrated to send data towards the official API entity.",
       technologies: [".Net", "C#", "API", "HTML", "SQL", "JavaScript", "CSS"],
       image: "/Confidential.png"
     },
-    {
-      id: 8,
-      title: "Area31",
-      description: "Arward winning team project made for 3ITC's programmers contest during my university years.",
-      technologies: ["Unreal Engine 4", "Blueprints", "UE Build System"],
-      githubUrl: "https://github.com/VladSoltaniuc/Area31",
-      detailsUrl: "https://github.com/VladSoltaniuc/Area31/blob/master/HOW%20TO%20GET%20THE%20GAME-%20GOOGLE%20DRIVE.txt",
-      image: "/Area1.jpg"
-    },
-    {
-      id: 9,
-      title: "Cubesain",
-      description: "This was a team project made for 3ITC contest during my university years, we ended up winning.",
-      technologies: ["Unreal Engine 4", "Blueprints", "UE Build System"],
-      githubUrl: "https://github.com/VladSoltaniuc/Area31",
-      detailsUrl: "https://github.com/VladSoltaniuc/Area31/blob/master/HOW%20TO%20GET%20THE%20GAME-%20GOOGLE%20DRIVE.txt",
-      image: "/Confidential.png"
-    },
-    
     {
       id: 10,
       title: "Area31",
@@ -102,15 +102,14 @@ const Portfolio: React.FC = () => {
       detailsUrl: "https://github.com/VladSoltaniuc/Area31/blob/master/HOW%20TO%20GET%20THE%20GAME-%20GOOGLE%20DRIVE.txt",
       image: "/Area1.jpg"
     },
-    
     {
       id: 11,
-      title: "Area31",
-      description: "Arward winning team project made for 3ITC's programmers contest during my university years.",
-      technologies: ["Unreal Engine 4", "Blueprints", "UE Build System"],
-      githubUrl: "https://github.com/VladSoltaniuc/Area31",
-      detailsUrl: "https://github.com/VladSoltaniuc/Area31/blob/master/HOW%20TO%20GET%20THE%20GAME-%20GOOGLE%20DRIVE.txt",
-      image: "/Area1.jpg"
+      title: "Cubesain (OBS upload video on gitbug, way to fun)",
+      description: "A race against time, a game where you play as a cube going faster and faster, trying to avoid obstacles and gather points along the way. Will you survive until the end? Or will your time run out?",
+      technologies: ["Unity Engine", "C#"],
+      githubUrl: "https://github.com/VladSoltaniuc/CUBSAIN",
+      detailsUrl: "https://github.com/VladSoltaniuc/CUBSAIN/blob/master/CUBSAIN%20setup%20(x64).exe",
+      image: "/Cubesain.jpg"
     },
     
     {
@@ -121,6 +120,24 @@ const Portfolio: React.FC = () => {
       githubUrl: "https://github.com/VladSoltaniuc/Area31",
       detailsUrl: "https://github.com/VladSoltaniuc/Area31/blob/master/HOW%20TO%20GET%20THE%20GAME-%20GOOGLE%20DRIVE.txt",
       image: "/Area1.jpg"
+    },
+    {
+      id: 13,
+      title: "Area31",
+      description: "Arward winning team project made for 3ITC's programmers contest during my university years.",
+      technologies: ["Unreal Engine 4", "Blueprints", "UE Build System"],
+      githubUrl: "https://github.com/VladSoltaniuc/Area31",
+      detailsUrl: "https://github.com/VladSoltaniuc/Area31/blob/master/HOW%20TO%20GET%20THE%20GAME-%20GOOGLE%20DRIVE.txt",
+      image: "/Area1.jpg"
+    },
+    {
+      id: 14,
+      title: "Cubesain (OBS upload video on gitbug, way to fun)",
+      description: "A race against time, a game where you play as a cube going faster and faster, trying to avoid obstacles and gather points along the way. Will you survive until the end? Or will your time run out?",
+      technologies: ["Unity Engine", "C#"],
+      githubUrl: "https://github.com/VladSoltaniuc/CUBSAIN",
+      detailsUrl: "https://github.com/VladSoltaniuc/CUBSAIN/blob/master/CUBSAIN%20setup%20(x64).exe",
+      image: "/Cubesain.jpg"
     },
   ];
 
