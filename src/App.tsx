@@ -170,7 +170,7 @@ const Portfolio: React.FC = () => {
               <div className="bg-slate-800/80 backdrop-blur-md rounded-xl p-8 border border-slate-700/50 shadow-xl">
                 <p className="text-gray-300 text-lg leading-relaxed">
                   Software Developing isn't just a <b>Job</b>, it's a <b>Hobby</b>, a choice of <b>Lifestyle</b> to 
-                  always be improving. At the moment I'm having lots of fun learning home <b>A.I. models</b> and the math underneath it all.
+                  always be improving. At the moment I'm having lots of fun learning <b>A.I. models</b> and the math underneath them.
                 </p>
                 <br />
                 <p className="text-gray-300 text-lg leading-relaxed">
@@ -178,12 +178,15 @@ const Portfolio: React.FC = () => {
                   be it <b>Security</b>, <b>Education</b>, <b>Medical</b>, <b>Commercial</b> etc. A good Developer means more than just writing code,
                   we need to have a time analytic thinking.
                   <br />
-                  <br />
                   <ul className="text-gray-300 text-lg leading-relaxed mb-2 list-disc list-inside">
                     <li><b>How long</b> will this feature take to implement?</li>
                     <li>Is there already <b>an existing solution</b> in need of tweaking?</li>
                   </ul>
                   You would be surprised how much <b>time</b> you can <b>save</b> when we ask the <b>Right Questions</b>. That is why proper Analysis is a <b>Must-Have</b> before diving into code.
+                </p>
+                <br />
+                <p className="text-gray-300 text-lg leading-relaxed">
+                  When I'm not coding, you can find me playing my guitar, recording song covers or enjoying outdoor activities.
                 </p>
               </div>
                 <br />
@@ -195,52 +198,48 @@ const Portfolio: React.FC = () => {
       {/* Quotes Section */}
       <section id="quotes" className="py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold text-white mb-12 text-center">Favorite Quotes</h2>
+          <h2 className="text-4xl font-bold text-white mb-12 text-center">Quotes I will always remember</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-slate-800/80 backdrop-blur-md rounded-xl p-6 border border-slate-700/50 shadow-xl">
               <div className="text-6xl text-blue-400 mb-4">"</div>
               <p className="text-gray-300 text-lg italic mb-4">
-                "Be creative, but don't reinvent the wheel."
+                "The road ahead is a hard one, but becoming a Developer unlocks endless posibilities." (Translated)
               </p>
-              <p className="text-blue-400 font-medium">— Steve Jobs</p>
+              <p className="text-blue-400 font-medium">— Dana Schiopu</p>
+            </div>
+            <div className="bg-slate-800/80 backdrop-blur-md rounded-xl p-6 border border-slate-700/50 shadow-xl">
+              <div className="text-6xl text-blue-400 mb-4">"</div>
+              <p className="text-gray-300 text-lg italic mb-4">
+                "If it seems like a common problem, most likely someone already found the solution." (Translated)
+              </p>
+              <p className="text-blue-400 font-medium">— Vlad Lepadatu</p>
+            </div>
+            <div className="bg-slate-800/80 backdrop-blur-md rounded-xl p-6 border border-slate-700/50 shadow-xl">
+              <div className="text-6xl text-blue-400 mb-4">"</div>
+              <p className="text-gray-300 text-lg italic mb-4">
+                "With only a few lines of code, your vision can become reality." (Translated)
+              </p>
+              <p className="text-blue-400 font-medium">— Scheau Constantin</p>
+            </div>
+            <div className="bg-slate-800/80 backdrop-blur-md rounded-xl p-6 border border-slate-700/50 shadow-xl">
+              <div className="text-6xl text-blue-400 mb-4">"</div>
+              <p className="text-gray-300 text-lg italic mb-4">
+                "Creativity is crucial, but let's not reinvent the wheel." (Translated)
+              </p>
+              <p className="text-blue-400 font-medium">— Andrei Ristea </p>
+            </div>
+            <div className="bg-slate-800/80 backdrop-blur-md rounded-xl p-6 border border-slate-700/50 shadow-xl">
+              <div className="text-6xl text-blue-400 mb-4">"</div>
+              <p className="text-gray-300 text-lg italic mb-4">
+                "Anything can be achived given the time and determination."
+              </p>
+              <p className="text-blue-400 font-medium">— Vlad Soltaniuc</p>
             </div>
             
             <div className="bg-slate-800/80 backdrop-blur-md rounded-xl p-6 border border-slate-700/50 shadow-xl">
               <div className="text-6xl text-blue-400 mb-4">"</div>
               <p className="text-gray-300 text-lg italic mb-4">
-                "Code is like humor. When you have to explain it, it's bad."
-              </p>
-              <p className="text-blue-400 font-medium">— Cory House</p>
-            </div>
-            
-            <div className="bg-slate-800/80 backdrop-blur-md rounded-xl p-6 border border-slate-700/50 shadow-xl">
-              <div className="text-6xl text-blue-400 mb-4">"</div>
-              <p className="text-gray-300 text-lg italic mb-4">
-                "First, solve the problem. Then, write the code."
-              </p>
-              <p className="text-blue-400 font-medium">— John Johnson</p>
-            </div>
-            
-            <div className="bg-slate-800/80 backdrop-blur-md rounded-xl p-6 border border-slate-700/50 shadow-xl">
-              <div className="text-6xl text-blue-400 mb-4">"</div>
-              <p className="text-gray-300 text-lg italic mb-4">
-                "The best error message is the one that never shows up."
-              </p>
-              <p className="text-blue-400 font-medium">— Thomas Fuchs</p>
-            </div>
-            
-            <div className="bg-slate-800/80 backdrop-blur-md rounded-xl p-6 border border-slate-700/50 shadow-xl">
-              <div className="text-6xl text-blue-400 mb-4">"</div>
-              <p className="text-gray-300 text-lg italic mb-4">
-                "Experience is the name everyone gives to their mistakes."
-              </p>
-              <p className="text-blue-400 font-medium">— Oscar Wilde</p>
-            </div>
-            
-            <div className="bg-slate-800/80 backdrop-blur-md rounded-xl p-6 border border-slate-700/50 shadow-xl">
-              <div className="text-6xl text-blue-400 mb-4">"</div>
-              <p className="text-gray-300 text-lg italic mb-4">
-                "Innovation distinguishes between a leader and a follower."
+                "Force push to main."
               </p>
               <p className="text-blue-400 font-medium">— Steve Jobs</p>
             </div>
@@ -378,13 +377,6 @@ const Portfolio: React.FC = () => {
                     greatProject = [(userOriented + resultFocused) × (askingQuestions + teamplay)] ÷ timeAvailable
                   </code>
                 </p>
-                
-              <div className="bg-slate-800/80 backdrop-blur-md rounded-xl p-8 border border-slate-700/50 shadow-xl">
-              
-                <p className="text-gray-300 text-lg leading-relaxed">
-                  When I'm not coding, you can find me playing my guitar, recording song covers or enjoying outdoor activities.
-                </p>
-              </div>
             © 2025 Vlad Doe. All rights reserved.
           </p>
         </div>
