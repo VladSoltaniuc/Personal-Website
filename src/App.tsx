@@ -21,84 +21,84 @@ const Portfolio: React.FC = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: "NAME HERE",
-      description: "DESCRIPTION HERE",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      demoUrl: "#",
-      githubUrl: "#",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop"
+      title: "Area31",
+      description: "This was a team project made for 3ITC contest during my university years, we ended up winning",
+      technologies: ["Unreal Engine 4", "Blueprints", "UE Build System"],
+      demoUrl: "https://github.com/VladSoltaniuc/Area31/blob/master/HOW%20TO%20GET%20THE%20GAME-%20GOOGLE%20DRIVE.txt",
+      githubUrl: "https://github.com/VladSoltaniuc/Area31",
+      image: "/Area1.jpg"
     },
     {
       id: 2,
       title: "Area31",
       description: "This was a team project made for 3ITC contest during my university years, we ended up winning",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      demoUrl: "https://drive.google.com/open?id=11jN18tnosL6dEgZSzkS5FxZbXoKf_0TV",
+      technologies: ["Unreal Engine 4", "Blueprints", "UE Build System"],
+      demoUrl: "https://github.com/VladSoltaniuc/Area31/blob/master/HOW%20TO%20GET%20THE%20GAME-%20GOOGLE%20DRIVE.txt",
       githubUrl: "https://github.com/VladSoltaniuc/Area31",
       image: "/Area1.jpg"
     },
     {
       id: 3,
-      title: "NAME HERE",
-      description: "DESCRIPTION HERE",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      demoUrl: "#",
-      githubUrl: "#",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop"
+      title: "Area31",
+      description: "This was a team project made for 3ITC contest during my university years, we ended up winning",
+      technologies: ["Unreal Engine 4", "Blueprints", "UE Build System"],
+      demoUrl: "https://github.com/VladSoltaniuc/Area31/blob/master/HOW%20TO%20GET%20THE%20GAME-%20GOOGLE%20DRIVE.txt",
+      githubUrl: "https://github.com/VladSoltaniuc/Area31",
+      image: "/Area1.jpg"
     },
     {
       id: 4,
-      title: "NAME HERE",
-      description: "DESCRIPTION HERE",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      demoUrl: "#",
-      githubUrl: "#",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop"
+      title: "Area31",
+      description: "This was a team project made for 3ITC contest during my university years, we ended up winning",
+      technologies: ["Unreal Engine 4", "Blueprints", "UE Build System"],
+      demoUrl: "https://github.com/VladSoltaniuc/Area31/blob/master/HOW%20TO%20GET%20THE%20GAME-%20GOOGLE%20DRIVE.txt",
+      githubUrl: "https://github.com/VladSoltaniuc/Area31",
+      image: "/Area1.jpg"
     },
     {
       id: 5,
-      title: "NAME HERE",
-      description: "DESCRIPTION HERE",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      demoUrl: "#",
-      githubUrl: "#",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop"
+      title: "Area31",
+      description: "This was a team project made for 3ITC contest during my university years, we ended up winning",
+      technologies: ["Unreal Engine 4", "Blueprints", "UE Build System"],
+      demoUrl: "https://github.com/VladSoltaniuc/Area31/blob/master/HOW%20TO%20GET%20THE%20GAME-%20GOOGLE%20DRIVE.txt",
+      githubUrl: "https://github.com/VladSoltaniuc/Area31",
+      image: "/Area1.jpg"
     },
     {
       id: 6,
-      title: "NAME HERE",
-      description: "DESCRIPTION HERE",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      demoUrl: "#",
-      githubUrl: "#",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop"
+      title: "Area31",
+      description: "This was a team project made for 3ITC contest during my university years, we ended up winning",
+      technologies: ["Unreal Engine 4", "Blueprints", "UE Build System"],
+      demoUrl: "https://github.com/VladSoltaniuc/Area31/blob/master/HOW%20TO%20GET%20THE%20GAME-%20GOOGLE%20DRIVE.txt",
+      githubUrl: "https://github.com/VladSoltaniuc/Area31",
+      image: "/Area1.jpg"
     },
     {
       id: 7,
-      title: "NAME HERE",
-      description: "DESCRIPTION HERE",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      demoUrl: "#",
-      githubUrl: "#",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop"
+      title: "Area31",
+      description: "This was a team project made for 3ITC contest during my university years, we ended up winning",
+      technologies: ["Unreal Engine 4", "Blueprints", "UE Build System"],
+      demoUrl: "https://github.com/VladSoltaniuc/Area31/blob/master/HOW%20TO%20GET%20THE%20GAME-%20GOOGLE%20DRIVE.txt",
+      githubUrl: "https://github.com/VladSoltaniuc/Area31",
+      image: "/Area1.jpg"
     },
     {
       id: 8,
-      title: "NAME HERE",
-      description: "DESCRIPTION HERE",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      demoUrl: "#",
-      githubUrl: "#",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop"
+      title: "Area31",
+      description: "This was a team project made for 3ITC contest during my university years, we ended up winning",
+      technologies: ["Unreal Engine 4", "Blueprints", "UE Build System"],
+      demoUrl: "https://github.com/VladSoltaniuc/Area31/blob/master/HOW%20TO%20GET%20THE%20GAME-%20GOOGLE%20DRIVE.txt",
+      githubUrl: "https://github.com/VladSoltaniuc/Area31",
+      image: "/Area1.jpg"
     },
     {
       id: 9,
-      title: "NAME HERE",
-      description: "DESCRIPTION HERE",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      demoUrl: "#",
-      githubUrl: "#",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop"
+      title: "Area31",
+      description: "This was a team project made for 3ITC contest during my university years, we ended up winning",
+      technologies: ["Unreal Engine 4", "Blueprints", "UE Build System"],
+      demoUrl: "https://github.com/VladSoltaniuc/Area31/blob/master/HOW%20TO%20GET%20THE%20GAME-%20GOOGLE%20DRIVE.txt",
+      githubUrl: "https://github.com/VladSoltaniuc/Area31",
+      image: "/Area1.jpg"
     },
   ];
 
