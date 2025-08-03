@@ -76,6 +76,7 @@ const Portfolio: React.FC = () => {
             <div className="flex items-center space-x-8">
               <div className="text-2xl font-bold text-white">Vlad.dev</div>
               <div className="hidden md:block">
+                <span className="text-white font-medium">Analyze. </span>
                 <span className="text-white font-medium">Code. </span>
                 <span className="text-green-400 font-medium italic">Create. </span>
                 <span className="text-white font-medium">Innovate.</span>
@@ -110,6 +111,7 @@ const Portfolio: React.FC = () => {
           <div className="md:hidden bg-gray-900/95 backdrop-blur-md border-t border-gray-700">
             <div className="px-2 pt-2 pb-3 space-y-1">
               <div className="text-center py-2 border-b border-gray-700 mb-2">
+                <span className="text-white font-medium">Analyze. </span>
                 <span className="text-white font-medium">Code. </span>
                 <span className="text-green-400 font-medium italic">Create. </span>
                 <span className="text-white font-medium">Innovate.</span>
@@ -231,7 +233,7 @@ const Portfolio: React.FC = () => {
             <div className="bg-slate-800/80 backdrop-blur-md rounded-xl p-6 border border-slate-700/50 shadow-xl">
               <div className="text-6xl text-blue-400 mb-4">"</div>
               <p className="text-gray-300 text-lg italic mb-4">
-                "Anything can be achived given the time and determination."
+                "Anything can be achived given time and determination." (Translated)
               </p>
               <p className="text-blue-400 font-medium">— Vlad Soltaniuc</p>
             </div>
