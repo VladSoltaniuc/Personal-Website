@@ -1,17 +1,50 @@
-/* @tailwind base;
+@tailwind base;
 @tailwind components;
-@tailwind utilities; */
+@tailwind utilities;
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Your custom colors */
+:root {
+  --primary-color: #your-color-here;
+  --secondary-color: #your-color-here;
+  --accent-color: #your-color-here;
+  --background-start: #your-color-here;
+  --background-end: #your-color-here;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Custom gradient background */
+.custom-gradient {
+  background: linear-gradient(135deg, var(--background-start), var(--background-end));
+}
+
+/* Custom button styles */
+.custom-button {
+  background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+}
+
+.custom-button:hover {
+  background: linear-gradient(to right, var(--secondary-color), var(--accent-color));
+}
+
+/* Custom color scheme */
+.bg-primary { background-color: #1e40af; } /* Your primary color */
+.bg-secondary { background-color: #0891b2; } /* Your secondary color */
+.bg-accent { background-color: #06b6d4; } /* Your accent color */
+
+.text-primary { color: #3b82f6; }
+.text-secondary { color: #06b6d4; }
+.text-accent { color: #0891b2; }
+
+.border-primary { border-color: #3b82f6; }
+
+/* Custom gradients */
+.gradient-bg {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+}
+
+.gradient-button {
+  background: linear-gradient(to right, #3b82f6, #06b6d4);
+}
+
+.gradient-button:hover {
+  background: linear-gradient(to right, #2563eb, #0891b2);
 }
