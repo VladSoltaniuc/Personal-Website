@@ -21,21 +21,21 @@ const Portfolio: React.FC = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: "Area31",
-      description: "This was a team project made for 3ITC contest during my university years, we ended up winning",
-      technologies: ["Unreal Engine 4", "Blueprints", "UE Build System"],
-      demoUrl: "https://github.com/VladSoltaniuc/Area31/blob/master/HOW%20TO%20GET%20THE%20GAME-%20GOOGLE%20DRIVE.txt",
-      githubUrl: "https://github.com/VladSoltaniuc/Area31",
-      image: "/Area1.jpg"
+      title: "CRM",
+      description: "Professional Cloud CRM software designed to help companies organize their data. Offering multi-tennant Invoicing, Stocks, Finance, Notifications, Logs, Import/Export",
+      technologies: [".Net", "C#", "HTML", "SQL", "JavaScript", "CSS"],
+      demoUrl: "#",
+      githubUrl: "#",
+      image: "/Confidential.png"
     },
     {
       id: 2,
-      title: "Area31",
+      title: "Service365",
       description: "This was a team project made for 3ITC contest during my university years, we ended up winning",
       technologies: ["Unreal Engine 4", "Blueprints", "UE Build System"],
-      demoUrl: "https://github.com/VladSoltaniuc/Area31/blob/master/HOW%20TO%20GET%20THE%20GAME-%20GOOGLE%20DRIVE.txt",
-      githubUrl: "https://github.com/VladSoltaniuc/Area31",
-      image: "/Area1.jpg"
+      demoUrl: "#",
+      githubUrl: "#",
+      image: "/Confidential.png"
     },
     {
       id: 3,
@@ -53,7 +53,7 @@ const Portfolio: React.FC = () => {
       technologies: ["Unreal Engine 4", "Blueprints", "UE Build System"],
       demoUrl: "https://github.com/VladSoltaniuc/Area31/blob/master/HOW%20TO%20GET%20THE%20GAME-%20GOOGLE%20DRIVE.txt",
       githubUrl: "https://github.com/VladSoltaniuc/Area31",
-      image: "/Area1.jpg"
+      image: "/Confidential.png"
     },
     {
       id: 5,
@@ -62,7 +62,7 @@ const Portfolio: React.FC = () => {
       technologies: ["Unreal Engine 4", "Blueprints", "UE Build System"],
       demoUrl: "https://github.com/VladSoltaniuc/Area31/blob/master/HOW%20TO%20GET%20THE%20GAME-%20GOOGLE%20DRIVE.txt",
       githubUrl: "https://github.com/VladSoltaniuc/Area31",
-      image: "/Area1.jpg"
+      image: "/Confidential.png"
     },
     {
       id: 6,
@@ -71,7 +71,7 @@ const Portfolio: React.FC = () => {
       technologies: ["Unreal Engine 4", "Blueprints", "UE Build System"],
       demoUrl: "https://github.com/VladSoltaniuc/Area31/blob/master/HOW%20TO%20GET%20THE%20GAME-%20GOOGLE%20DRIVE.txt",
       githubUrl: "https://github.com/VladSoltaniuc/Area31",
-      image: "/Area1.jpg"
+      image: "/Confidential.png"
     },
     {
       id: 7,
@@ -80,7 +80,7 @@ const Portfolio: React.FC = () => {
       technologies: ["Unreal Engine 4", "Blueprints", "UE Build System"],
       demoUrl: "https://github.com/VladSoltaniuc/Area31/blob/master/HOW%20TO%20GET%20THE%20GAME-%20GOOGLE%20DRIVE.txt",
       githubUrl: "https://github.com/VladSoltaniuc/Area31",
-      image: "/Area1.jpg"
+      image: "/Confidential.png"
     },
     {
       id: 8,
@@ -89,7 +89,7 @@ const Portfolio: React.FC = () => {
       technologies: ["Unreal Engine 4", "Blueprints", "UE Build System"],
       demoUrl: "https://github.com/VladSoltaniuc/Area31/blob/master/HOW%20TO%20GET%20THE%20GAME-%20GOOGLE%20DRIVE.txt",
       githubUrl: "https://github.com/VladSoltaniuc/Area31",
-      image: "/Area1.jpg"
+      image: "/Confidential.png"
     },
     {
       id: 9,
@@ -98,7 +98,7 @@ const Portfolio: React.FC = () => {
       technologies: ["Unreal Engine 4", "Blueprints", "UE Build System"],
       demoUrl: "https://github.com/VladSoltaniuc/Area31/blob/master/HOW%20TO%20GET%20THE%20GAME-%20GOOGLE%20DRIVE.txt",
       githubUrl: "https://github.com/VladSoltaniuc/Area31",
-      image: "/Area1.jpg"
+      image: "/Confidential.png"
     },
   ];
 
