@@ -84,7 +84,7 @@ const Portfolio: React.FC = () => {
             
             {/* Desktop Navigation */}
             <div className="hidden md:flex space-x-8">
-              {['about', 'projects', 'skills', 'contact'].map((item) => (
+              {['home','quotes', 'projects', 'skills', 'contact'].map((item) => (
                 <button
                   key={item}
                   onClick={() => scrollToSection(item)}
@@ -114,7 +114,7 @@ const Portfolio: React.FC = () => {
                 <span className="text-green-400 font-medium italic">Create. </span>
                 <span className="text-white font-medium">Innovate.</span>
               </div>
-              {['about', 'projects', 'skills', 'contact'].map((item) => (
+              {['home', 'quotes', 'projects', 'skills', 'contact'].map((item) => (
                 <button
                   key={item}
                   onClick={() => scrollToSection(item)}
@@ -129,7 +129,7 @@ const Portfolio: React.FC = () => {
       </nav>
 
       {/* Hero + About Combined Section */}
-      <section className="min-h-screen flex items-center justify-center px-4 py-20">
+      <section id="home" className="min-h-screen flex items-center justify-center px-4 py-20">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             {/* Left Side - Hero/Introduction */}
@@ -165,12 +165,12 @@ const Portfolio: React.FC = () => {
               </button>
             </div>
             {/* Right Side - About Me */}
-            <div id="about">
+            <div>
             <br />
               <div className="bg-slate-800/80 backdrop-blur-md rounded-xl p-8 border border-slate-700/50 shadow-xl">
                 <p className="text-gray-300 text-lg leading-relaxed">
                   Software Developing isn't just a <b>Job</b>, it's a <b>Hobby</b>, a choice of <b>Lifestyle</b> to 
-                  always be improving. At the moment I'm having lots of fun learning about <b>A.I. models</b> and the math underneath it all.
+                  always be improving. At the moment I'm having lots of fun learning home <b>A.I. models</b> and the math underneath it all.
                 </p>
                 <br />
                 <p className="text-gray-300 text-lg leading-relaxed">
