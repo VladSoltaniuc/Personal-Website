@@ -5,7 +5,7 @@ interface Project {
   title: string;
   description: string;
   technologies: string[];
-  demoUrl?: string;
+  detailsUrl?: string;
   githubUrl?: string;
   image: string;
 }
@@ -21,84 +21,106 @@ const Portfolio: React.FC = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: "CRM",
-      description: "Professional Cloud CRM software designed to help companies organize their data. Offering multi-tennant Invoicing, Stocks, Finance, Notifications, Logs, Import/Export",
-      technologies: [".Net", "C#", "HTML", "SQL", "JavaScript", "CSS"],
-      demoUrl: "#",
-      githubUrl: "#",
+      title: "Security Tracker",
+      description: "Software designed to organize and catalogue, events, planning and resources, featuring interactive maps and data vizualization. Me and the team had to develop this project localy at the site of our client, completely offline, which proved it's own set of chalanges, I loved working on this project.",
+      technologies: [".Net", "C#", "API", "MongoDB", "Leaflet", "OpenStreetMap", "HTML", "JavaScript", "CSS"],
       image: "/Confidential.png"
     },
     {
       id: 2,
-      title: "Service365",
-      description: "This was a team project made for 3ITC contest during my university years, we ended up winning",
-      technologies: ["Unreal Engine 4", "Blueprints", "UE Build System"],
-      demoUrl: "#",
-      githubUrl: "#",
-      image: "/Confidential.png"
+      title: "Dissertation Thesis - Disambiguation Degree: 9.40",
+      description: "I've conducted research into the field of A.I. machine learning. This software is ment to prove the concept and usage of Word Disambiguation by search engines such as Google. When you hear the word 'Bat' do you think of a baseball bat or a nocturnal animal? This softwre identifies the meaning of the word 'Bat' by analizing the context of the sentaince it is found in.",
+      technologies: ["Python", "NLP Tools (NLTK)", "Tokenization"],
+      githubUrl: "https://github.com/VladSoltaniuc/Query-Dezambiguization",
+      detailsUrl: "https://github.com/VladSoltaniuc/Query-Dezambiguization/blob/master/Soltaniuc-Vlad-Documentatie%20Disertatie.pdf",
+      image: "/Animal-Obiect.jpg"
     },
     {
       id: 3,
-      title: "Area31",
-      description: "This was a team project made for 3ITC contest during my university years, we ended up winning",
-      technologies: ["Unreal Engine 4", "Blueprints", "UE Build System"],
-      demoUrl: "https://github.com/VladSoltaniuc/Area31/blob/master/HOW%20TO%20GET%20THE%20GAME-%20GOOGLE%20DRIVE.txt",
-      githubUrl: "https://github.com/VladSoltaniuc/Area31",
-      image: "/Area1.jpg"
+      title: "Amazon Price Checker",
+      description: "Software that checks Amazon price listings for the selected item. When the item goes below a certain choosen value, the user is informed of the oprotunity to buy it for a low price. I was researching inflation and price fluctuation, which gave me this idea. I see an similar oportunity here for Food Ordering Apps.",
+      technologies: ["JavaScript", "Mailchimp"],
+      githubUrl: "https://github.com/VladSoltaniuc/Amazon-Price-Checker",
+      detailsUrl: "https://github.com/VladSoltaniuc/Amazon-Price-Checker/blob/main/EmailReciever.JPG",
+      image: "/EmailReciverContents.jpeg"
     },
     {
       id: 4,
-      title: "Area31",
-      description: "This was a team project made for 3ITC contest during my university years, we ended up winning",
-      technologies: ["Unreal Engine 4", "Blueprints", "UE Build System"],
-      demoUrl: "https://github.com/VladSoltaniuc/Area31/blob/master/HOW%20TO%20GET%20THE%20GAME-%20GOOGLE%20DRIVE.txt",
-      githubUrl: "https://github.com/VladSoltaniuc/Area31",
+      title: "University Microsercives",
+      description: "University management system, with features such as: enrollment, student dashboard, professor administration, scheduler, notifications, Import/Export etc. Extensive number of API routes using the Next.js standard and TypeORM conventions. This app covers everything related to a University flow of work.",
+      technologies: ["Next.js", "TypeORM", "Typescript", "API", "PostgreSQL"],
       image: "/Confidential.png"
     },
     {
       id: 5,
-      title: "Area31",
-      description: "This was a team project made for 3ITC contest during my university years, we ended up winning",
-      technologies: ["Unreal Engine 4", "Blueprints", "UE Build System"],
-      demoUrl: "https://github.com/VladSoltaniuc/Area31/blob/master/HOW%20TO%20GET%20THE%20GAME-%20GOOGLE%20DRIVE.txt",
-      githubUrl: "https://github.com/VladSoltaniuc/Area31",
-      image: "/Confidential.png"
+      title: "Weather APP",
+      description: "Software for checking the temperature, chances of rain, wind-speed in real time. Using OpenWeather API, which gathers data live from weather stations. It features a Select2 type searchbox that allows the user to search by city name.",
+      technologies: ["OpenWeatherMap API", "HTML", "JavaScript", "CSS"],
+      githubUrl: "https://github.com/VladSoltaniuc/Weather-App",
+      detailsUrl: "https://github.com/VladSoltaniuc/Weather-App/blob/main/Weather%20APP.JPG",
+      image: "/Weather APP.jpeg"
     },
     {
       id: 6,
-      title: "Area31",
-      description: "This was a team project made for 3ITC contest during my university years, we ended up winning",
-      technologies: ["Unreal Engine 4", "Blueprints", "UE Build System"],
-      demoUrl: "https://github.com/VladSoltaniuc/Area31/blob/master/HOW%20TO%20GET%20THE%20GAME-%20GOOGLE%20DRIVE.txt",
-      githubUrl: "https://github.com/VladSoltaniuc/Area31",
+      title: "Sales CRM",
+      description: "Cloud Software designed to help companies organize their data. Offering multi-tennant Invoicing, Stocks, Finance, Notifications, Logs, Import/Export.",
+      technologies: [".Net", "C#", "API", "SQL", "HTML", "JavaScript", "CSS"],
       image: "/Confidential.png"
     },
     {
       id: 7,
-      title: "Area31",
-      description: "This was a team project made for 3ITC contest during my university years, we ended up winning",
-      technologies: ["Unreal Engine 4", "Blueprints", "UE Build System"],
-      demoUrl: "https://github.com/VladSoltaniuc/Area31/blob/master/HOW%20TO%20GET%20THE%20GAME-%20GOOGLE%20DRIVE.txt",
-      githubUrl: "https://github.com/VladSoltaniuc/Area31",
+      title: "Car Helper",
+      description: "Cloud Software designed to manage Car information, such as distance traveled, care plate number, VIN, repair history and integrated to send data towards the official API entity.",
+      technologies: [".Net", "C#", "API", "HTML", "SQL", "JavaScript", "CSS"],
       image: "/Confidential.png"
     },
     {
       id: 8,
       title: "Area31",
-      description: "This was a team project made for 3ITC contest during my university years, we ended up winning",
+      description: "Arward winning team project made for 3ITC's programmers contest during my university years.",
       technologies: ["Unreal Engine 4", "Blueprints", "UE Build System"],
-      demoUrl: "https://github.com/VladSoltaniuc/Area31/blob/master/HOW%20TO%20GET%20THE%20GAME-%20GOOGLE%20DRIVE.txt",
       githubUrl: "https://github.com/VladSoltaniuc/Area31",
-      image: "/Confidential.png"
+      detailsUrl: "https://github.com/VladSoltaniuc/Area31/blob/master/HOW%20TO%20GET%20THE%20GAME-%20GOOGLE%20DRIVE.txt",
+      image: "/Area1.jpg"
     },
     {
       id: 9,
-      title: "Area31",
-      description: "This was a team project made for 3ITC contest during my university years, we ended up winning",
+      title: "Cubesain",
+      description: "This was a team project made for 3ITC contest during my university years, we ended up winning.",
       technologies: ["Unreal Engine 4", "Blueprints", "UE Build System"],
-      demoUrl: "https://github.com/VladSoltaniuc/Area31/blob/master/HOW%20TO%20GET%20THE%20GAME-%20GOOGLE%20DRIVE.txt",
       githubUrl: "https://github.com/VladSoltaniuc/Area31",
+      detailsUrl: "https://github.com/VladSoltaniuc/Area31/blob/master/HOW%20TO%20GET%20THE%20GAME-%20GOOGLE%20DRIVE.txt",
       image: "/Confidential.png"
+    },
+    
+    {
+      id: 10,
+      title: "Area31",
+      description: "Arward winning team project made for 3ITC's programmers contest during my university years.",
+      technologies: ["Unreal Engine 4", "Blueprints", "UE Build System"],
+      githubUrl: "https://github.com/VladSoltaniuc/Area31",
+      detailsUrl: "https://github.com/VladSoltaniuc/Area31/blob/master/HOW%20TO%20GET%20THE%20GAME-%20GOOGLE%20DRIVE.txt",
+      image: "/Area1.jpg"
+    },
+    
+    {
+      id: 11,
+      title: "Area31",
+      description: "Arward winning team project made for 3ITC's programmers contest during my university years.",
+      technologies: ["Unreal Engine 4", "Blueprints", "UE Build System"],
+      githubUrl: "https://github.com/VladSoltaniuc/Area31",
+      detailsUrl: "https://github.com/VladSoltaniuc/Area31/blob/master/HOW%20TO%20GET%20THE%20GAME-%20GOOGLE%20DRIVE.txt",
+      image: "/Area1.jpg"
+    },
+    
+    {
+      id: 12,
+      title: "Area31",
+      description: "Arward winning team project made for 3ITC's programmers contest during my university years.",
+      technologies: ["Unreal Engine 4", "Blueprints", "UE Build System"],
+      githubUrl: "https://github.com/VladSoltaniuc/Area31",
+      detailsUrl: "https://github.com/VladSoltaniuc/Area31/blob/master/HOW%20TO%20GET%20THE%20GAME-%20GOOGLE%20DRIVE.txt",
+      image: "/Area1.jpg"
     },
   ];
 
@@ -268,7 +290,7 @@ const Portfolio: React.FC = () => {
               <p className="text-gray-300 text-lg italic mb-4">
                 "The road ahead is a hard one, but becoming a Developer unlocks endless posibilities." (Translated)
               </p>
-              <p className="text-green-400 font-medium">— Dana Schiopu</p>
+              <p className="text-green-400 font-medium">— Daniela Schiopu</p>
             </div>
             <div className="bg-slate-800/80 backdrop-blur-md rounded-xl p-6 border border-slate-700/50 shadow-xl">
               <div className="text-6xl text-green-400 mb-4">"</div>
@@ -282,7 +304,7 @@ const Portfolio: React.FC = () => {
               <p className="text-gray-300 text-lg italic mb-4">
                 "With only a few lines of code, your vision can become reality." (Translated)
               </p>
-              <p className="text-green-400 font-medium">— Scheau Constantin</p>
+              <p className="text-green-400 font-medium">— Constantin Scheau</p>
             </div>
             <div className="bg-slate-800/80 backdrop-blur-md rounded-xl p-6 border border-slate-700/50 shadow-xl">
               <div className="text-6xl text-green-400 mb-4">"</div>
@@ -339,10 +361,10 @@ const Portfolio: React.FC = () => {
                         Code
                       </a>
                     )}
-                    {project.demoUrl && (
-                      <a href={project.demoUrl} target="_blank" className="flex items-center text-green-400 hover:text-blue-400 transition-colors">
+                    {project.detailsUrl && (
+                      <a href={project.detailsUrl} target="_blank" className="flex items-center text-green-400 hover:text-blue-400 transition-colors">
                         <ExternalLink size={16} className="mr-1" />
-                        Demo
+                        Details
                       </a>
                     )}
                   </div>
