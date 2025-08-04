@@ -67,7 +67,7 @@ const Portfolio: React.FC = () => {
       id: 6,
       title: "University Microservices",
       description: "University management system, with features such as: enrollment, student dashboard, professor administration, scheduler, notifications, Import/Export etc. Extensive number of API routes using the Next.js standard and TypeORM conventions. This app covers everything related to a University's flow of work.",
-      technologies: ["Next.js", "TypeORM", "Typescript", "API", "PostgreSQL"],
+      technologies: ["Nest.js", "Next.js", "TypeORM", "Typescript", "API", "PostgreSQL"],
       image: "/Confidential.png"
     },
     {
@@ -99,7 +99,7 @@ const Portfolio: React.FC = () => {
       description: "Arward winning project made for 3ITC's programmers contest. It features a laser gun that interacts diferently based on the surface you shoot at. After introduceing the played through a short tutorial, you are faced with a series of puzzles where you have to use your wit and imagination to pass. Can you succeed? And more importantly, will you find the hidden Golden Trophy? Click on 'Details' for dowload instructions",
       technologies: ["Unreal Engine 4", "UE Build System", "Blueprints"],
       githubUrl: "https://github.com/VladSoltaniuc/Area31",
-      detailsUrl: "https://github.com/VladSoltaniuc/Area31/blob/master/HOW%20TO%20GET%20THE%20GAME-%20GOOGLE%20DRIVE.txt",
+      detailsUrl: "https://github.com/VladSoltaniuc/Area31/blob/master/GameplayArena31.3gp",
       image: "/Area1.jpg"
     },
     {
@@ -108,7 +108,7 @@ const Portfolio: React.FC = () => {
       description: "A race against time, a game where you play as a cube traveling through an unknown land of obstacles and rewards. Will you reach the end until the time runs out? Good luck! Click on 'Details' and then 'View raw' to dowload the installer",
       technologies: ["Unity 2020.3", "C#"],
       githubUrl: "https://github.com/VladSoltaniuc/CUBSAIN",
-      detailsUrl: "https://github.com/VladSoltaniuc/CUBSAIN/blob/master/Gameplay.mp4",
+      detailsUrl: "https://github.com/VladSoltaniuc/CUBSAIN/blob/main/Gameplay.mp4",
       image: "/Cubesain.jpg"
     },
     {
@@ -123,20 +123,32 @@ const Portfolio: React.FC = () => {
   ];
 
   const skills: Skill[] = [
-    { name: "JavaScript/TypeScript", level: 90 },
-    { name: "React", level: 85 },
-    { name: "Node.js", level: 80 },
-    { name: "Python", level: 75 },
-    { name: "CSS/Tailwind", level: 85 },
-    { name: "Git/GitHub", level: 90 },
-    { name: "SKILL NAME", level: 90 },
-    { name: "SKILL NAME", level: 90 },
-    { name: "SKILL NAME", level: 90 },
-    { name: "SKILL NAME", level: 90 },
-    { name: "SKILL NAME", level: 90 },
-    { name: "SKILL NAME", level: 90 },
-    { name: "SKILL NAME", level: 90 },
-    { name: "SKILL NAME", level: 90 },
+    { name: ".Net MVC", level: 80 },
+    { name: "SSMS", level: 90 },
+    { name: "C#", level: 80 },
+    { name: "SQL", level: 90 },
+    { name: "REST API", level: 90 },
+    { name: "MongoDB", level: 70 },
+    { name: "TypeORM", level: 50 },
+    { name: "PostgreSQL", level: 70 },
+    { name: "Nest.js", level: 60 },
+    { name: "Next.js", level: 40 },
+    { name: "Git", level: 70 },
+    { name: "HTML", level: 90 },
+    { name: "TypeScript", level: 60 },
+    { name: "CSS", level: 80 },
+    { name: "JavaScript", level: 60 },
+    { name: "English", level: 90 },
+    { name: "Research", level: 90 },
+    { name: "Communication", level: 90 },
+    { name: "Analysis", level: 90 },
+    { name: "React", level: 30 },
+    { name: "Python", level: 20 },
+    { name: "A.I. Integration", level: 40 },
+    { name: "Leaflet", level: 20 },
+    { name: "A.I. Machine Learning", level: 30 },
+    { name: "UnrealEngine4", level: 20 },
+    { name: "Unity", level: 20 },
   ];
 
   const scrollToSection = (sectionId: string): void => {
@@ -376,7 +388,7 @@ const Portfolio: React.FC = () => {
       {/* Skills Section */}
       <section id="skills" className="py-20 px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-bold text-white mb-12 text-center">Skills [WIP]</h2>
+          <h2 className="text-4xl font-bold text-white mb-12 text-center">Skills</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {skills.map((skill) => (
               <div key={skill.name} className="bg-slate-800/80 backdrop-blur-md rounded-xl p-6 border border-slate-700/50 shadow-xl">
