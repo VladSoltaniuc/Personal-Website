@@ -242,10 +242,10 @@ const Portfolio: React.FC = () => {
                 Developer
               </p>
               <div className="flex justify-center lg:justify-center space-x-6 mb-8">
-                <a href="#" className="text-gray-300 hover:text-white transition-colors hover:scale-110 transform">
+                <a href="https://github.com/VladSoltaniuc" className="text-gray-300 hover:text-white transition-colors hover:scale-110 transform" target="_blank">
                   <Github size={24} />
                 </a>
-                <a href="#" className="text-gray-300 hover:text-white transition-colors hover:scale-110 transform">
+                <a href="https://www.linkedin.com/in/vlad-soltaniuc-048ba2172/" className="text-gray-300 hover:text-white transition-colors hover:scale-110 transform" target="_blank">
                   <Linkedin size={24} />
                 </a>
                 <a href="#" className="text-gray-300 hover:text-white transition-colors hover:scale-110 transform">
@@ -408,54 +408,127 @@ const Portfolio: React.FC = () => {
         </div>
       </section>
 
-      {/* Contact Section */}
+       {/* Contact Section */}
       <section id="contact" className="py-20 px-4">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-bold text-white mb-12 text-center">Get In Touch [WIP]</h2>
-          <div className="bg-slate-800/80 backdrop-blur-md rounded-xl p-8 border border-slate-700/50 shadow-xl">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div>
-                <h3 className="text-2xl font-bold text-white mb-6">Contact Information</h3>
-                <div className="space-y-4">
-                  <div className="flex items-center">
-                    <Mail className="text-green-400 mr-3" size={20} />
-                    <span className="text-gray-300">i.vlad55@yahoo.com</span>
-                  </div>
-                  <div className="flex items-center">
-                    <Phone className="text-green-400 mr-3" size={20} />
-                    <span className="text-gray-300">(+40)728848773</span>
-                  </div>
-                  <div className="flex items-center">
-                    <MapPin className="text-green-400 mr-3" size={20} />
-                    <span className="text-gray-300">Bucharest, Romania</span>
-                  </div>
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-4xl font-bold text-white mb-12 text-center">Let's Connect</h2>
+          
+          {/* Main Contact Cards */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+            {/* Email Card */}
+            <div 
+              className="bg-gradient-to-br from-slate-800/90 to-slate-900/90 backdrop-blur-md rounded-xl p-8 border border-slate-700/50 shadow-xl hover:transform hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer group"
+              onClick={() => window.open('mailto:i.vlad55@yahoo.com', '_blank')}
+            >
+              <div className="flex flex-col items-center text-center">
+                <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-green-400 rounded-full flex items-center justify-center mb-4 group-hover:rotate-12 transition-transform duration-300">
+                  <Mail className="text-white" size={24} />
+                </div>
+                <h3 className="text-xl font-bold text-white mb-2">Email</h3>
+                <p className="text-gray-300 mb-3">Drop me a line</p>
+                <p className="text-green-400 font-medium">i.vlad55@yahoo.com</p>
+                <div className="mt-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <span className="text-sm text-gray-400">Click to open email client</span>
                 </div>
               </div>
-              <div>
-                <h3 className="text-2xl font-bold text-white mb-6">Send a Message</h3>
-                <div className="space-y-4">
-                  <input
-                    type="text"
-                    placeholder="Your Name"
-                    className="w-full px-4 py-3 bg-slate-700/80 border border-slate-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-green-500 transition-colors"
-                  />
-                  <input
-                    type="email"
-                    placeholder="Your Email"
-                    className="w-full px-4 py-3 bg-slate-700/80 border border-slate-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-green-500 transition-colors"
-                  />
-                  <textarea
-                    placeholder="Your Message"
-                    rows={4}
-                    className="w-full px-4 py-3 bg-slate-700/80 border border-slate-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-green-500 transition-colors"
-                  ></textarea>
-                  <button
-                    onClick={() => alert('Message sent! (This is a demo)')}
-                    className="w-full bg-gradient-to-r from-green-600 to-green-500 text-white py-3 rounded-lg hover:from-green-700 hover:to-green-600 transition-all transform hover:scale-105 font-medium shadow-lg"
-                  >
-                    Send Message
-                  </button>
+            </div>
+
+            {/* Phone Card */}
+            <div 
+              className="bg-gradient-to-br from-slate-800/90 to-slate-900/90 backdrop-blur-md rounded-xl p-8 border border-slate-700/50 shadow-xl hover:transform hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer group"
+              onClick={() => window.open('tel:+40728848773', '_blank')}
+            >
+              <div className="flex flex-col items-center text-center">
+                <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-blue-400 rounded-full flex items-center justify-center mb-4 group-hover:rotate-12 transition-transform duration-300">
+                  <Phone className="text-white" size={24} />
                 </div>
+                <h3 className="text-xl font-bold text-white mb-2">Phone</h3>
+                <p className="text-gray-300 mb-3">Let's talk</p>
+                <p className="text-blue-400 font-medium">(+40) 728 848 773</p>
+                <div className="mt-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <span className="text-sm text-gray-400">Click to call</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Location Card */}
+            <div 
+              className="bg-gradient-to-br from-slate-800/90 to-slate-900/90 backdrop-blur-md rounded-xl p-8 border border-slate-700/50 shadow-xl hover:transform hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer group"
+              onClick={() => window.open('https://maps.google.com/?q=Bucharest,Romania', '_blank')}
+            >
+              <div className="flex flex-col items-center text-center">
+                <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-purple-400 rounded-full flex items-center justify-center mb-4 group-hover:rotate-12 transition-transform duration-300">
+                  <MapPin className="text-white" size={24} />
+                </div>
+                <h3 className="text-xl font-bold text-white mb-2">Location</h3>
+                <p className="text-gray-300 mb-3">Based in</p>
+                <p className="text-purple-400 font-medium">Bucharest, Romania</p>
+                <div className="mt-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <span className="text-sm text-gray-400">Click to view on map</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Social Links Section */}
+          <div className="bg-slate-800/80 backdrop-blur-md rounded-xl p-8 border border-slate-700/50 shadow-xl">
+            <h3 className="text-2xl font-bold text-white mb-6 text-center">Find Me Online</h3>
+            <div className="flex justify-center space-x-8">
+              <a 
+                href="https://github.com/VladSoltaniuc" 
+                target="_blank"
+                className="group flex flex-col items-center p-4 rounded-lg hover:bg-slate-700/50 transition-all duration-300"
+              >
+                <div className="w-12 h-12 bg-gradient-to-r from-gray-600 to-gray-500 rounded-full flex items-center justify-center mb-2 group-hover:scale-110 transition-transform duration-300">
+                  <Github className="text-white" size={20} />
+                </div>
+                <span className="text-gray-300 group-hover:text-white transition-colors">GitHub</span>
+              </a>
+              
+              <a 
+                href="https://www.linkedin.com/in/vlad-soltaniuc-048ba2172/" 
+                target="_blank"
+                className="group flex flex-col items-center p-4 rounded-lg hover:bg-slate-700/50 transition-all duration-300"
+              >
+                <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-blue-500 rounded-full flex items-center justify-center mb-2 group-hover:scale-110 transition-transform duration-300">
+                  <Linkedin className="text-white" size={20} />
+                </div>
+                <span className="text-gray-300 group-hover:text-white transition-colors">LinkedIn</span>
+              </a>
+              
+              <a 
+                href="mailto:i.vlad55@yahoo.com" 
+                className="group flex flex-col items-center p-4 rounded-lg hover:bg-slate-700/50 transition-all duration-300"
+              >
+                <div className="w-12 h-12 bg-gradient-to-r from-red-600 to-red-500 rounded-full flex items-center justify-center mb-2 group-hover:scale-110 transition-transform duration-300">
+                  <Mail className="text-white" size={20} />
+                </div>
+                <span className="text-gray-300 group-hover:text-white transition-colors">Direct Email</span>
+              </a>
+            </div>
+          </div>
+
+          {/* Call to Action */}
+          <div className="text-center mt-12">
+            <div className="bg-gradient-to-r from-green-600/20 to-blue-600/20 backdrop-blur-md rounded-xl p-8 border border-green-400/30">
+              <h3 className="text-2xl font-bold text-white mb-4">Ready to Start a Project?</h3>
+              <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
+                Whether you have a specific project in mind or just want to explore possibilities, 
+                I'm always excited to discuss new opportunities and challenges.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <button
+                  onClick={() => window.open('mailto:i.vlad55@yahoo.com?subject=Project Inquiry', '_blank')}
+                  className="bg-gradient-to-r from-green-600 to-green-500 text-white px-8 py-3 rounded-lg hover:from-green-700 hover:to-green-600 transition-all transform hover:scale-105 font-medium shadow-lg"
+                >
+                  Start a Conversation
+                </button>
+                <button
+                  onClick={() => scrollToSection('projects')}
+                  className="bg-transparent border-2 border-green-400 text-green-400 px-8 py-3 rounded-lg hover:bg-green-400 hover:text-white transition-all transform hover:scale-105 font-medium"
+                >
+                  View My Work
+                </button>
               </div>
             </div>
           </div>
