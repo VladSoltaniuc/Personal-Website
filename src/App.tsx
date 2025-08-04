@@ -21,11 +21,11 @@ const Portfolio: React.FC = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: "A.I. Sentiment Analysis [WIP learn more about the front end and how it was made + Upload Project to GitHub + Add Links]",
-      description: "This software uses an A.I. model to detect the sentiment/feeling a certain user has based on the text written. It is usable in any language since I integrated it with Google Translate and it is perfect for bussy days where you receive messages left and right. Just have the A.I. analize your messages and detect wether they have Negative, Neutral or Positive feelings. Now you know to focus on those Negative ones because they are the priority.",
-      technologies: ["A.I. Model", "Python", "HuggingFace", "GoogleTranslate"],
-      githubUrl: "#",
-      detailsUrl: "#",
+      title: "A.I. Sentiment Analysis",
+      description: "This software uses an pretrained A.I. model to detect the sentiment/feeling a certain user has based on the text written. It is usable in any language since I integrated it with Google Translate and it is perfect for bussy days where you receive messages left and right. Just have the A.I. analize your messages and detect wether they have Negative, Neutral or Positive feelings. Now you know to focus on those Negative ones because they are the priority.",
+      technologies: ["A.I. Model", "Python", "Flask", "Jinja2", "HuggingFace", "GoogleTranslate"],
+      githubUrl: "https://github.com/VladSoltaniuc/Sentiment-Analysis",
+      detailsUrl: "https://github.com/VladSoltaniuc/Sentiment-Analysis/blob/master/README.md",
       image: "/Sentiment.JPG"
     },
     {
@@ -39,11 +39,11 @@ const Portfolio: React.FC = () => {
     },
     {
       id: 3,
-      title: "Number Prediction [WIP Upload project to GitHub + Add Links]",
-      description: "This software uses an A.I. model in order to predict numbers from 0 to 9 from pictures of hand written numbers. We all have a diferent way to write numbers by hand, such as 1, 4 and 7. It aims to solve confusion by analizing the handwriting and guessing the most likely outcome.",
+      title: "Number Prediction",
+      description: "This software uses an pretrained A.I. model in order to predict numbers from 0 to 9 from pictures of hand written numbers. We all have a diferent way to write numbers by hand, such as 1, 4 and 7. It aims to solve confusion by analizing the handwriting and guessing the most likely outcome.",
       technologies: ["A.I. Model", "Python", "MNIST Dataset"],
-      githubUrl: "#",
-      detailsUrl: "#",
+      githubUrl: "https://github.com/VladSoltaniuc/Vision2Number",
+      detailsUrl: "https://github.com/VladSoltaniuc/Vision2Number/tree/master#readme",
       image: "/AI.jpg"
     },
     
@@ -104,11 +104,11 @@ const Portfolio: React.FC = () => {
     },
     {
       id: 11,
-      title: "Cubesain (OBS upload video on gitbug, way to fun) [WIP]",
-      description: "A race against time, a game where you play as a cube going faster and faster, trying to avoid obstacles and gather points along the way. Will you survive until the end? Or will your time run out? Click on 'Details' and then 'View raw' to dowload the installer",
+      title: "Cubsain",
+      description: "A race against time, a game where you play as a cube traveling through an unknown land of obstacles and rewards. Will you reach the end until the time runs out? Good luck! Click on 'Details' and then 'View raw' to dowload the installer",
       technologies: ["Unity 2020.3", "C#"],
       githubUrl: "https://github.com/VladSoltaniuc/CUBSAIN",
-      detailsUrl: "https://github.com/VladSoltaniuc/CUBSAIN/blob/master/CUBSAIN%20setup%20(x64).exe",
+      detailsUrl: "https://github.com/VladSoltaniuc/CUBSAIN/blob/master/Gameplay.mp4",
       image: "/Cubesain.jpg"
     },
     {
