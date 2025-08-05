@@ -44,7 +44,7 @@ const Portfolio: React.FC = () => {
       technologies: ["A.I. Model", "Python", "MNIST Dataset"],
       githubUrl: "https://github.com/VladSoltaniuc/Vision2Number",
       detailsUrl: "https://github.com/VladSoltaniuc/Vision2Number/tree/master#readme",
-      image: "/AI.jpg"
+      image: "/AI.JPG"
     },
     
     {
@@ -326,7 +326,7 @@ const Portfolio: React.FC = () => {
             <div className="bg-slate-800/80 backdrop-blur-md rounded-xl p-6 border border-slate-700/50 shadow-xl">
               <div className="text-6xl text-green-400 mb-4">"</div>
               <p className="text-gray-300 text-lg italic mb-4">
-                "Anything can be achived given time and determination." (Translated)
+                "Anything can be achieved given time and determination." (Translated)
               </p>
               <p className="text-green-400 font-medium">— Vlad Soltaniuc</p>
             </div>
