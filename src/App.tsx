@@ -96,7 +96,7 @@ const Portfolio: React.FC = () => {
     {
       id: 10,
       title: "Area31",
-      description: "Arward winning project made for 3ITC's programmers contest. It features a laser gun that interacts diferently based on the surface you shoot at. After introduceing the played through a short tutorial, you are faced with a series of puzzles where you have to use your wit and imagination to pass. Can you succeed? And more importantly, will you find the hidden Golden Trophy? Click on 'Details' for dowload instructions",
+      description: "Arward winning project made for 3ITC's programmers contest. It features a laser gun that interacts diferently based on the surface you shoot at. After introduceing the played through a short tutorial, you are faced with a series of puzzles where you have to use your wit and imagination to pass. Can you succeed? And more importantly, will you find the hidden Golden Trophy? Click on 'Details' for dowload instructions.",
       technologies: ["Unreal Engine 4", "UE Build System", "Blueprints"],
       githubUrl: "https://github.com/VladSoltaniuc/Area31",
       detailsUrl: "https://github.com/VladSoltaniuc/Area31/blob/master/GameplayArena31.3gp",
@@ -105,7 +105,7 @@ const Portfolio: React.FC = () => {
     {
       id: 11,
       title: "Cubsain",
-      description: "A race against time, a game where you play as a cube traveling through an unknown land of obstacles and rewards. Will you reach the end until the time runs out? Good luck! Click on 'Details' and then 'View raw' to dowload the installer",
+      description: "A race against time, a game where you play as a cube traveling through an unknown land of obstacles and rewards. Will you reach the end until the time runs out? Good luck! Click on 'Details' and then 'View raw' to dowload the installer.",
       technologies: ["Unity 2020.3", "C#"],
       githubUrl: "https://github.com/VladSoltaniuc/CUBSAIN",
       detailsUrl: "https://github.com/VladSoltaniuc/CUBSAIN/blob/main/Gameplay.mp4",
@@ -408,7 +408,7 @@ const Portfolio: React.FC = () => {
         </div>
       </section>
 
-       {/* Contact Section */}
+      {/* Contact Section */}
       <section id="contact" className="py-20 px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold text-white mb-12 text-center">Let's Connect</h2>
