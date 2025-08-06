@@ -248,7 +248,7 @@ const Portfolio: React.FC = () => {
                 <a href="https://www.linkedin.com/in/vlad-soltaniuc-048ba2172/" className="text-gray-300 hover:text-white transition-colors hover:scale-110 transform" target="_blank">
                   <Linkedin size={24} />
                 </a>
-                <a href="#" className="text-gray-300 hover:text-white transition-colors hover:scale-110 transform">
+                <a href="mailto:i.vlad55@yahoo.com" target="_blank" className="text-gray-300 hover:text-white transition-colors hover:scale-110 transform">
                   <Mail size={24} />
                 </a>
               </div>
@@ -497,7 +497,7 @@ const Portfolio: React.FC = () => {
               </a>
               
               <a 
-                href="mailto:i.vlad55@yahoo.com" 
+                href="mailto:i.vlad55@yahoo.com" target="_blank"
                 className="group flex flex-col items-center p-4 rounded-lg hover:bg-slate-700/50 transition-all duration-300"
               >
                 <div className="w-12 h-12 bg-gradient-to-r from-red-600 to-red-500 rounded-full flex items-center justify-center mb-2 group-hover:scale-110 transition-transform duration-300">
