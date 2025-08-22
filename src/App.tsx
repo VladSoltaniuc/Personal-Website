@@ -123,32 +123,32 @@ const Portfolio: React.FC = () => {
   ];
 
   const skills: Skill[] = [
-    { name: ".Net MVC", level: 80 },
-    { name: "SSMS", level: 90 },
-    { name: "C#", level: 80 },
-    { name: "SQL", level: 90 },
-    { name: "REST API", level: 90 },
-    { name: "MongoDB", level: 70 },
-    { name: "TypeORM", level: 50 },
-    { name: "PostgreSQL", level: 70 },
-    { name: "Nest.js", level: 60 },
-    { name: "Next.js", level: 40 },
-    { name: "Git", level: 70 },
-    { name: "HTML", level: 90 },
-    { name: "TypeScript", level: 60 },
-    { name: "CSS", level: 80 },
-    { name: "JavaScript", level: 60 },
-    { name: "English", level: 90 },
-    { name: "Research", level: 90 },
-    { name: "Communication", level: 90 },
-    { name: "Analysis", level: 90 },
-    { name: "React", level: 30 },
-    { name: "Python", level: 20 },
-    { name: "A.I. Integration", level: 40 },
-    { name: "Leaflet", level: 20 },
-    { name: "A.I. Machine Learning", level: 30 },
-    { name: "UnrealEngine4", level: 20 },
-    { name: "Unity", level: 20 },
+    {level: 70, name: ".Net MVC" },
+    {level: 70, name: "SSMS" },   
+    {level: 70, name: "C#" },     
+    {level: 70, name: "SQL" },       
+    {level: 70, name: "REST API" },         
+    {level: 50, name: "TypeScript" },
+    {level: 50, name: "TypeORM" },             
+    {level: 50, name: "JavaScript" },
+    {level: 50, name: "MongoDB" },           
+    {level: 50, name: "PostgreSQL" },
+    {level: 50, name: "Nest.js" },     
+    {level: 50, name: "Git" },
+    {level: 100, name: "English" },
+    {level: 80, name: "Research" },
+    {level: 80, name: "Analysis" },
+    {level: 80, name: "Communication" },
+    {level: 50, name: "HTML" },
+    {level: 50, name: "CSS" },
+    {level: 30, name: "Next.js" },
+    {level: 30, name: "React" },
+    {level: 30, name: "Python" },
+    {level: 30, name: "A.I. Integration" },  
+    {level: 30, name: "A.I. Machine Learning" },
+    {level: 30, name: "UnrealEngine4" },
+    {level: 30, name: "Unity" },
+    {level: 10, name: "Leaflet" },
   ];
 
   const scrollToSection = (sectionId: string): void => {
@@ -454,7 +454,7 @@ const Portfolio: React.FC = () => {
             {/* Location Card */}
             <div 
               className="bg-gradient-to-br from-slate-800/90 to-slate-900/90 backdrop-blur-md rounded-xl p-8 border border-slate-700/50 shadow-xl hover:transform hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer group"
-              onClick={() => window.open('https://maps.google.com/?q=Bucharest,Romania', '_blank')}
+              onClick={() => window.open('https://maps.google.com/?q=Bucharest,Romania', '_blank')} 
             >
               <div className="flex flex-col items-center text-center">
                 <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-purple-400 rounded-full flex items-center justify-center mb-4 group-hover:rotate-12 transition-transform duration-300">
