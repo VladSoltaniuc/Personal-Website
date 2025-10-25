@@ -22,7 +22,7 @@ const Portfolio: React.FC = () => {
     {
       id: 1,
       title: "A.I. Sentiment Analysis",
-      description: "This software uses an pretrained A.I. model to detect the sentiment/feeling a certain user has based on the text written. It is usable in any language since I integrated it with Google Translate and it is perfect for bussy days where you receive messages left and right. Just have the A.I. analize your messages and detect wether they have Negative, Neutral or Positive feelings. Now you know to focus on those Negative ones because they are the priority.",
+      description: "This software uses an pretrained A.I. model to detect the sentiment/feeling a certain user has based on the user given text. It is usable in any language since I integrated it with Google Translate and it is perfect for bussy days where you receive messages left and right. Just have the A.I. analize your messages and detect wether they have Negative, Neutral or Positive feelings. Now you know how to organize your priorities.",
       technologies: ["A.I. Model", "Python", "Flask", "Jinja2", "HuggingFace", "GoogleTranslate"],
       githubUrl: "https://github.com/VladSoltaniuc/Sentiment-Analysis",
       detailsUrl: "https://github.com/VladSoltaniuc/Sentiment-Analysis/blob/master/README.md",
@@ -30,7 +30,7 @@ const Portfolio: React.FC = () => {
     },
     {
       id: 2,
-      title: "Dissertation Thesis - Disambiguation Degree: 9.40",
+      title: "Disambiguation - Dissertation Thesis Degree: 9.40",
       description: "I've conducted research into the field of A.I. Machine Learning. This software is ment to prove the concept and usage of Word Disambiguation by search engines such as Google. When you hear the word 'Bat' do you think of a baseball bat or a nocturnal animal? This softwre identifies the meaning of the word 'Bat' by analizing the context of the sentaince it is found in.",
       technologies: ["Python", "NLP Tools (NLTK)", "Tokenization"],
       githubUrl: "https://github.com/VladSoltaniuc/Query-Dezambiguization",
@@ -40,7 +40,7 @@ const Portfolio: React.FC = () => {
     {
       id: 3,
       title: "Number Prediction",
-      description: "This software uses an pretrained A.I. model in order to predict numbers from 0 to 9 from pictures of hand written numbers. We all have a diferent way to write numbers by hand, such as 1, 4 and 7. It aims to solve confusion by analizing the handwriting and guessing the most likely outcome.",
+      description: "This software uses an pretrained A.I. model in order to analize pictures of hand written digits from 0 to 9 and predict the correct diggit given. We all have a diferent way to write numbers by hand, such as 1, 4 and 7. It aims to minimize confusion by analizing the handwriting and guessing the most likely outcome.",
       technologies: ["A.I. Model", "Python", "MNIST Dataset"],
       githubUrl: "https://github.com/VladSoltaniuc/Vision2Number",
       detailsUrl: "https://github.com/VladSoltaniuc/Vision2Number/tree/master#readme",
@@ -50,14 +50,14 @@ const Portfolio: React.FC = () => {
     {
       id: 4,
       title: "Security Tracker",
-      description: "Software designed to organize and catalogue, events, planning and resources, featuring interactive maps and data vizualization. Me and the team had to develop this project localy at the site of our client, completely offline, which proved it's own set of chalanges, I loved working on this project.",
+      description: "Software designed to organize and catalogue, events, planning and resources, featuring interactive maps and data vizualization. Me and the team had to develop this project completely offline, working from within the office designated by our contractor, which proved it's own set of chalanges. I loved working on this project.",
       technologies: [".Net", "C#", "API", "MongoDB", "Leaflet", "OpenStreetMap", "HTML", "JavaScript", "CSS"],
       image: "/Confidential.png"
     },
     {
       id: 5,
       title: "Amazon Price Checker",
-      description: "Software that checks Amazon price listings for the selected item. When the item goes below a certain choosen value, the user is informed via email of the oprotunity to buy it for a low price. I was researching inflation and price fluctuation, which gave me this idea. I see an similar oportunity here for Food Ordering Apps.",
+      description: "Software that checks Amazon price listings for the selected item. When the item goes below a certain choosen value, the user is informed via email of the oprotunity to buy at a low price. I was researching inflation and price fluctuation, which gave me this idea. I see an similar opportunity here for Food Ordering Apps.",
       technologies: ["JavaScript", "Mailchimp"],
       githubUrl: "https://github.com/VladSoltaniuc/Amazon-Price-Checker",
       detailsUrl: "https://github.com/VladSoltaniuc/Amazon-Price-Checker/blob/main/EmailReciever.JPG",
@@ -66,7 +66,7 @@ const Portfolio: React.FC = () => {
     {
       id: 6,
       title: "University Microservices",
-      description: "University management system, with features such as: enrollment, student dashboard, professor administration, scheduler, notifications, Import/Export etc. Extensive number of API routes using the Next.js standard and TypeORM conventions. This app covers everything related to a University's flow of work.",
+      description: "University management system, with features such as: enrollment, student dashboard, professor administration, scheduler, notifications, Import/Export etc. Extensive number of API routes using the Next.js standard and TypeORM conventions. This app covers everything related to an University's flow of work.",
       technologies: ["Nest.js", "Next.js", "TypeORM", "Typescript", "API", "PostgreSQL"],
       image: "/Confidential.png"
     },
@@ -82,21 +82,21 @@ const Portfolio: React.FC = () => {
     {
       id: 8,
       title: "Sales CRM",
-      description: "Cloud Software designed to help companies organize their data. Offering multi-tennant Invoicing, Stocks, Finance, Notifications, Logs, Import/Export etc. It is modularized and sections can be enable/disabled based on user requirements via roles and permissions.",
+      description: "Cloud Software designed to help companies organize their large amount of data. Offering multi-tennant Invoicing, Stocks, Finance, Notifications, Logs, Import/Export etc. Featuring modularized sections that can be enable/disabled based on user requirements via roles and permissions.",
       technologies: [".Net", "C#", "API", "SQL", "HTML", "JavaScript", "CSS"],
       image: "/Confidential.png"
     },
     {
       id: 9,
       title: "Car Helper",
-      description: "Cloud Software designed to manage Car information, such as distance traveled, care plate number, VIN and repair history. It is integrated to send data towards the official API entity upon service inspection.",
+      description: "Cloud Software designed to manage Car information, such as distance traveled, plate number, VIN and repair history. It comes integrated with the official API given by the car administrative association, which requires auto service owners to share car information.",
       technologies: [".Net", "C#", "API", "HTML", "SQL", "JavaScript", "CSS"],
       image: "/Confidential.png"
     },
     {
       id: 10,
       title: "Area31",
-      description: "Arward winning project made for 3ITC's programmers contest. It features a laser gun that interacts diferently based on the surface you shoot at. After introduceing the played through a short tutorial, you are faced with a series of puzzles where you have to use your wit and imagination to pass. Can you succeed? And more importantly, will you find the hidden Golden Trophy? Click on 'Details' for dowload instructions.",
+      description: "Award winning project made for 3ITC's programmers contest. It features a laser gun that interacts differently based on the surface you shoot at. After introducing the player through a short tutorial, you are faced with a series of puzzles where you have to use your wit and imagination to pass. Can you succeed? More importantly, will you find the hidden Golden Trophy? Click on 'Details' for dowload instructions.",
       technologies: ["Unreal Engine 4", "UE Build System", "Blueprints"],
       githubUrl: "https://github.com/VladSoltaniuc/Area31",
       detailsUrl: "https://github.com/VladSoltaniuc/Area31/blob/master/GameplayArena31.3gp",
@@ -134,20 +134,18 @@ const Portfolio: React.FC = () => {
     {level: 50, name: "MongoDB" },           
     {level: 50, name: "PostgreSQL" },
     {level: 50, name: "Nest.js" },     
-    {level: 50, name: "Git" },
     {level: 100, name: "English" },
-    {level: 80, name: "Research" },
-    {level: 80, name: "Analysis" },
-    {level: 80, name: "Communication" },
+    {level: 100, name: "Research" },
+    {level: 100, name: "Communication" },
+    {level: 70, name: "CSS" },
     {level: 50, name: "HTML" },
-    {level: 50, name: "CSS" },
     {level: 30, name: "Next.js" },
     {level: 30, name: "React" },
-    {level: 30, name: "Python" },
-    {level: 30, name: "A.I. Integration" },  
-    {level: 30, name: "A.I. Machine Learning" },
     {level: 30, name: "UnrealEngine4" },
     {level: 30, name: "Unity" },
+    {level: 20, name: "Python" },
+    {level: 20, name: "A.I. Integration" },  
+    {level: 20, name: "A.I. Machine Learning" },
     {level: 10, name: "Leaflet" },
   ];
 
@@ -264,24 +262,21 @@ const Portfolio: React.FC = () => {
             <br />
               <div className="bg-slate-800/80 backdrop-blur-md rounded-xl p-8 border border-slate-700/50 shadow-xl">
                 <p className="text-gray-300 text-lg leading-relaxed">
-                  Software Developing isn't just a <b>Job</b>, it's a <b>Hobby</b>, a choice of <b>Lifestyle</b> to 
-                  always be improving. At the moment I'm having lots of fun learning <b>A.I. models</b> and the math underneath them.
+                  Software Developing isn't just a <b>Job</b>, it's a <b>Hobby</b>, a <b>Choice</b> to always be improving. My goal is to become a <b>Full Stack</b> developer. With my already solid <b>Backend</b> skills and current projects that improve my <b>Frontend</b>, I'll get there in no time. 
+                  <br/>
+                  <br/>
+                  On the side I'm learning A.I. and since I wanted to understand what's under the hood, I completed courses like <b>nVidia A.I. practical course</b> and with this knowledge I created some cool <b>projects involving A.I. models</b>. (<i>more on those below</i>)
+                </p>
+                <br/>
+                <p className="text-gray-300 text-lg leading-relaxed">
+                  I have over <b>2 years of professional experience</b> creating solutions for fields like <b>Security</b>, <b>Education</b>, <b>Medical</b>, <b>Commercial</b> etc. 
+                  <br/>
+                  <br/>
+                  <b>What makes a team great ?</b> The mindset, inserting yourself seamlessly into an already existing ecosystem, bring a plus to the table.
                 </p>
                 <br />
                 <p className="text-gray-300 text-lg leading-relaxed">
-                  I have over <b>2 years of professional experience</b> in which I've created solutions for multiple fields,
-                  be it <b>Security</b>, <b>Education</b>, <b>Medical</b>, <b>Commercial</b> etc. A good Developer means more than just writing code,
-                  we need to have a time analytic thinking.
-                  <br />
-                  <ul className="text-gray-300 text-lg leading-relaxed mb-2 list-disc list-inside">
-                    <li><b>How long</b> will this feature take to implement?</li>
-                    <li>Is there already <b>an existing solution</b> in need of tweaking?</li>
-                  </ul>
-                  You would be surprised how much <b>time</b> you can <b>save</b> when we ask the <b>Right Questions</b>. That is why proper Analysis is a <b>Must-Have</b> before diving into code.
-                </p>
-                <br />
-                <p className="text-gray-300 text-lg leading-relaxed">
-                  When I'm not coding, you can find me playing my guitar, recording song covers or enjoying outdoor activities.
+                  When I'm not coding, you can find me playing guitar, recording songs, going outside or on a mountain trip.
                 </p>
               </div>
                 <br />
@@ -414,7 +409,7 @@ const Portfolio: React.FC = () => {
           <h2 className="text-4xl font-bold text-white mb-12 text-center">Let's Connect</h2>
           
           {/* Main Contact Cards */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             {/* Email Card */}
             <div 
               className="bg-gradient-to-br from-slate-800/90 to-slate-900/90 backdrop-blur-md rounded-xl p-8 border border-slate-700/50 shadow-xl hover:transform hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer group"
@@ -429,24 +424,6 @@ const Portfolio: React.FC = () => {
                 <p className="text-green-400 font-medium">i.vlad55@yahoo.com</p>
                 <div className="mt-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <span className="text-sm text-gray-400">Click to open email client</span>
-                </div>
-              </div>
-            </div>
-
-            {/* Phone Card */}
-            <div 
-              className="bg-gradient-to-br from-slate-800/90 to-slate-900/90 backdrop-blur-md rounded-xl p-8 border border-slate-700/50 shadow-xl hover:transform hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer group"
-              onClick={() => window.open('tel:+40728848773', '_blank')}
-            >
-              <div className="flex flex-col items-center text-center">
-                <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-blue-400 rounded-full flex items-center justify-center mb-4 group-hover:rotate-12 transition-transform duration-300">
-                  <Phone className="text-white" size={24} />
-                </div>
-                <h3 className="text-xl font-bold text-white mb-2">Phone</h3>
-                <p className="text-gray-300 mb-3">Let's talk</p>
-                <p className="text-blue-400 font-medium">(+40) 728 848 773</p>
-                <div className="mt-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <span className="text-sm text-gray-400">Click to call</span>
                 </div>
               </div>
             </div>
