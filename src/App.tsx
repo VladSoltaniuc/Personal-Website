@@ -21,6 +21,15 @@ const Portfolio: React.FC = () => {
   const projects: Project[] = [
     {
       id: 1,
+      title: "German Translator",
+      description: "Desktop application that captures any text from your screen and translates it from German to English instantly. Simply press Ctrl+Shift+T, select the area with German text, and get the translation. Perfect for reading German documents, websites, or learning the language. Uses Tesseract OCR for text recognition and provides seamless screen capture functionality.",
+      technologies: ["Electron", "JavaScript", "Tesseract.js", "OCR", "Screen Capture", "HTML", "CSS"],
+      githubUrl: "https://github.com/VladSoltaniuc/german-translator",
+      detailsUrl: "https://github.com/VladSoltaniuc/german-translator#readme",
+      image: "/GermanTranslator.png"
+    },
+    {
+      id: 2,
       title: "A.I. Sentiment Analysis",
       description: "This software uses an pretrained A.I. model to detect the sentiment/feeling a certain user has based on the user given text. It is usable in any language since I integrated it with Google Translate and it is perfect for bussy days where you receive messages left and right. Just have the A.I. analize your messages and detect wether they have Negative, Neutral or Positive feelings. Now you know how to organize your priorities.",
       technologies: ["A.I. Model", "Python", "Flask", "Jinja2", "HuggingFace", "GoogleTranslate"],
@@ -29,7 +38,7 @@ const Portfolio: React.FC = () => {
       image: "/Sentiment.JPG"
     },
     {
-      id: 2,
+      id: 3,
       title: "Disambiguation - Dissertation Thesis Degree: 9.40",
       description: "I've conducted research into the field of A.I. Machine Learning. This software is ment to prove the concept and usage of Word Disambiguation by search engines such as Google. When you hear the word 'Bat' do you think of a baseball bat or a nocturnal animal? This softwre identifies the meaning of the word 'Bat' by analizing the context of the sentaince it is found in.",
       technologies: ["Python", "NLP Tools (NLTK)", "Tokenization"],
@@ -38,7 +47,7 @@ const Portfolio: React.FC = () => {
       image: "/Animal-Obiect.jpg"
     },
     {
-      id: 3,
+      id: 4,
       title: "Number Prediction",
       description: "This software uses an pretrained A.I. model in order to analize pictures of hand written digits from 0 to 9 and predict the correct diggit given. We all have a diferent way to write numbers by hand, such as 1, 4 and 7. It aims to minimize confusion by analizing the handwriting and guessing the most likely outcome.",
       technologies: ["A.I. Model", "Python", "MNIST Dataset"],
@@ -48,14 +57,14 @@ const Portfolio: React.FC = () => {
     },
     
     {
-      id: 4,
+      id: 5,
       title: "Security Tracker",
       description: "Software designed to organize and catalogue, events, planning and resources, featuring interactive maps and data vizualization. Me and the team had to develop this project completely offline, working from within the office designated by our contractor, which proved it's own set of chalanges. I loved working on this project.",
       technologies: [".Net", "C#", "API", "MongoDB", "Leaflet", "OpenStreetMap", "HTML", "JavaScript", "CSS"],
       image: "/Confidential.png"
     },
     {
-      id: 5,
+      id: 6,
       title: "Amazon Price Checker",
       description: "Software that checks Amazon price listings for the selected item. When the item goes below a certain choosen value, the user is informed via email of the oprotunity to buy at a low price. I was researching inflation and price fluctuation, which gave me this idea. I see an similar opportunity here for Food Ordering Apps.",
       technologies: ["JavaScript", "Mailchimp"],
@@ -64,14 +73,14 @@ const Portfolio: React.FC = () => {
       image: "/EmailReciverContents.jpeg"
     },
     {
-      id: 6,
+      id: 7,
       title: "University Microservices",
       description: "University management system, with features such as: enrollment, student dashboard, professor administration, scheduler, notifications, Import/Export etc. Extensive number of API routes using the Next.js standard and TypeORM conventions. This app covers everything related to an University's flow of work.",
       technologies: ["Nest.js", "Next.js", "TypeORM", "Typescript", "API", "PostgreSQL"],
       image: "/Confidential.png"
     },
     {
-      id: 7,
+      id: 8,
       title: "Weather APP",
       description: "Software for checking the temperature, chances of rain and wind-speed in real time. Using Open Weather API, which gathers data live from weather stations. It features a Select2 type searchbox that allows the user to search by city name.",
       technologies: ["OpenWeatherMap API", "HTML", "JavaScript", "CSS"],
@@ -80,21 +89,21 @@ const Portfolio: React.FC = () => {
       image: "/Weather APP.jpeg"
     },
     {
-      id: 8,
+      id: 9,
       title: "Sales CRM",
       description: "Cloud Software designed to help companies organize their large amount of data. Offering multi-tennant Invoicing, Stocks, Finance, Notifications, Logs, Import/Export etc. Featuring modularized sections that can be enable/disabled based on user requirements via roles and permissions.",
       technologies: [".Net", "C#", "API", "SQL", "HTML", "JavaScript", "CSS"],
       image: "/Confidential.png"
     },
     {
-      id: 9,
+      id: 10,
       title: "Car Helper",
       description: "Cloud Software designed to manage Car information, such as distance traveled, plate number, VIN and repair history. It comes integrated with the official API given by the car administrative association, which requires auto service owners to share car information.",
       technologies: [".Net", "C#", "API", "HTML", "SQL", "JavaScript", "CSS"],
       image: "/Confidential.png"
     },
     {
-      id: 10,
+      id: 11,
       title: "Area31",
       description: "Award winning project made for 3ITC's programmers contest. It features a laser gun that interacts differently based on the surface you shoot at. After introducing the player through a short tutorial, you are faced with a series of puzzles where you have to use your wit and imagination to pass. Can you succeed? More importantly, will you find the hidden Golden Trophy? Click on 'Details' for dowload instructions.",
       technologies: ["Unreal Engine 4", "UE Build System", "Blueprints"],
@@ -103,7 +112,7 @@ const Portfolio: React.FC = () => {
       image: "/Area1.jpg"
     },
     {
-      id: 11,
+      id: 12,
       title: "Cubsain",
       description: "A race against time, a game where you play as a cube traveling through an unknown land of obstacles and rewards. Will you reach the end until the time runs out? Good luck! Click on 'Details' and then 'View raw' to dowload the installer.",
       technologies: ["Unity 2020.3", "C#"],
@@ -112,7 +121,7 @@ const Portfolio: React.FC = () => {
       image: "/Cubesain.jpg"
     },
     {
-      id: 11,
+      id: 13,
       title: "Coming Soon",
       description: "-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
       technologies: [],
