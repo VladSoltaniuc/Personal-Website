@@ -1,5 +1,14 @@
-import React, { useState } from 'react';
-import { Mail, Phone, MapPin, Github, Linkedin, ExternalLink, Menu, X } from 'lucide-react';
+import React, { useState } from "react";
+import {
+  Mail,
+  Phone,
+  MapPin,
+  Github,
+  Linkedin,
+  ExternalLink,
+  Menu,
+  X,
+} from "lucide-react";
 interface Project {
   id: number;
   title: string;
@@ -22,146 +31,198 @@ const Portfolio: React.FC = () => {
     {
       id: 1,
       title: "German Translator",
-      description: "Desktop application that captures any text from your screen and translates it from German to English instantly. Simply press Ctrl+Shift+T, select the area with German text, and get the translation. Perfect for reading German documents, websites, or learning the language. Uses Tesseract OCR for text recognition and provides seamless screen capture functionality.",
-      technologies: ["Electron", "JavaScript", "Tesseract.js", "OCR", "Screen Capture", "HTML", "CSS"],
+      description:
+        "Desktop application that captures any text from your screen and translates it from German to English instantly. Simply press Ctrl+Shift+T, select the area with German text, and get the translation. Perfect for reading German documents, websites, or learning the language. Uses Tesseract OCR for text recognition and provides seamless screen capture functionality.",
+      technologies: [
+        "Electron",
+        "JavaScript",
+        "Tesseract.js",
+        "OCR",
+        "Screen Capture",
+        "HTML",
+        "CSS",
+      ],
       githubUrl: "https://github.com/VladSoltaniuc/german-translator",
       detailsUrl: "https://github.com/VladSoltaniuc/german-translator#readme",
-      image: "/GermanTranslator.png"
+      image: "/GermanTranslator.png",
     },
     {
       id: 2,
       title: "A.I. Sentiment Analysis",
-      description: "This software uses an pretrained A.I. model to detect the sentiment/feeling a certain user has based on the user given text. It is usable in any language since I integrated it with Google Translate and it is perfect for bussy days where you receive messages left and right. Just have the A.I. analize your messages and detect wether they have Negative, Neutral or Positive feelings. Now you know how to organize your priorities.",
-      technologies: ["A.I. Model", "Python", "Flask", "Jinja2", "HuggingFace", "GoogleTranslate"],
+      description:
+        "This software uses an pretrained A.I. model to detect the sentiment/feeling a certain user has based on the user given text. It is usable in any language since I integrated it with Google Translate and it is perfect for bussy days where you receive messages left and right. Just have the A.I. analize your messages and detect wether they have Negative, Neutral or Positive feelings. Now you know how to organize your priorities.",
+      technologies: [
+        "A.I. Model",
+        "Python",
+        "Flask",
+        "Jinja2",
+        "HuggingFace",
+        "GoogleTranslate",
+      ],
       githubUrl: "https://github.com/VladSoltaniuc/Sentiment-Analysis",
-      detailsUrl: "https://github.com/VladSoltaniuc/Sentiment-Analysis/blob/master/README.md",
-      image: "/Sentiment.JPG"
+      detailsUrl:
+        "https://github.com/VladSoltaniuc/Sentiment-Analysis/blob/master/README.md",
+      image: "/Sentiment.JPG",
     },
     {
       id: 3,
       title: "Disambiguation - Dissertation Thesis Degree: 9.40",
-      description: "I've conducted research into the field of A.I. Machine Learning. This software is ment to prove the concept and usage of Word Disambiguation by search engines such as Google. When you hear the word 'Bat' do you think of a baseball bat or a nocturnal animal? This softwre identifies the meaning of the word 'Bat' by analizing the context of the sentaince it is found in.",
+      description:
+        "I've conducted research into the field of A.I. Machine Learning. This software is ment to prove the concept and usage of Word Disambiguation by search engines such as Google. When you hear the word 'Bat' do you think of a baseball bat or a nocturnal animal? This softwre identifies the meaning of the word 'Bat' by analizing the context of the sentaince it is found in.",
       technologies: ["Python", "NLP Tools (NLTK)", "Tokenization"],
       githubUrl: "https://github.com/VladSoltaniuc/Query-Dezambiguization",
-      detailsUrl: "https://github.com/VladSoltaniuc/Query-Dezambiguization/blob/master/Soltaniuc-Vlad-Documentatie%20Disertatie.pdf",
-      image: "/Animal-Obiect.jpg"
+      detailsUrl:
+        "https://github.com/VladSoltaniuc/Query-Dezambiguization/blob/master/Soltaniuc-Vlad-Documentatie%20Disertatie.pdf",
+      image: "/Animal-Obiect.jpg",
     },
     {
       id: 4,
       title: "Number Prediction",
-      description: "This software uses an pretrained A.I. model in order to analize pictures of hand written digits from 0 to 9 and predict the correct diggit given. We all have a diferent way to write numbers by hand, such as 1, 4 and 7. It aims to minimize confusion by analizing the handwriting and guessing the most likely outcome.",
+      description:
+        "This software uses an pretrained A.I. model in order to analize pictures of hand written digits from 0 to 9 and predict the correct diggit given. We all have a diferent way to write numbers by hand, such as 1, 4 and 7. It aims to minimize confusion by analizing the handwriting and guessing the most likely outcome.",
       technologies: ["A.I. Model", "Python", "MNIST Dataset"],
       githubUrl: "https://github.com/VladSoltaniuc/Vision2Number",
-      detailsUrl: "https://github.com/VladSoltaniuc/Vision2Number/tree/master#readme",
-      image: "/AI.JPG"
+      detailsUrl:
+        "https://github.com/VladSoltaniuc/Vision2Number/tree/master#readme",
+      image: "/AI.JPG",
     },
-    
+
     {
       id: 5,
       title: "Security Tracker",
-      description: "Software designed to organize and catalogue, events, planning and resources, featuring interactive maps and data vizualization. Me and the team had to develop this project completely offline, working from within the office designated by our contractor, which proved it's own set of chalanges. I loved working on this project.",
-      technologies: [".Net", "C#", "API", "MongoDB", "Leaflet", "OpenStreetMap", "HTML", "JavaScript", "CSS"],
-      image: "/Confidential.png"
+      description:
+        "Software designed to organize and catalogue, events, planning and resources, featuring interactive maps and data vizualization. Me and the team had to develop this project completely offline, working from within the office designated by our contractor, which proved it's own set of chalanges. I loved working on this project.",
+      technologies: [
+        ".Net",
+        "C#",
+        "API",
+        "MongoDB",
+        "Leaflet",
+        "OpenStreetMap",
+        "HTML",
+        "JavaScript",
+        "CSS",
+      ],
+      image: "/Confidential.png",
     },
     {
       id: 6,
       title: "Amazon Price Checker",
-      description: "Software that checks Amazon price listings for the selected item. When the item goes below a certain choosen value, the user is informed via email of the oprotunity to buy at a low price. I was researching inflation and price fluctuation, which gave me this idea. I see an similar opportunity here for Food Ordering Apps.",
+      description:
+        "Software that checks Amazon price listings for the selected item. When the item goes below a certain choosen value, the user is informed via email of the oprotunity to buy at a low price. I was researching inflation and price fluctuation, which gave me this idea. I see an similar opportunity here for Food Ordering Apps.",
       technologies: ["JavaScript", "Mailchimp"],
       githubUrl: "https://github.com/VladSoltaniuc/Amazon-Price-Checker",
-      detailsUrl: "https://github.com/VladSoltaniuc/Amazon-Price-Checker/blob/main/EmailReciever.JPG",
-      image: "/EmailReciverContents.jpeg"
+      detailsUrl:
+        "https://github.com/VladSoltaniuc/Amazon-Price-Checker/blob/main/EmailReciever.JPG",
+      image: "/EmailReciverContents.jpeg",
     },
     {
       id: 7,
       title: "University Microservices",
-      description: "University management system, with features such as: enrollment, student dashboard, professor administration, scheduler, notifications, Import/Export etc. Extensive number of API routes using the Next.js standard and TypeORM conventions. This app covers everything related to an University's flow of work.",
-      technologies: ["Nest.js", "Next.js", "TypeORM", "Typescript", "API", "PostgreSQL"],
-      image: "/Confidential.png"
+      description:
+        "University management system, with features such as: enrollment, student dashboard, professor administration, scheduler, notifications, Import/Export etc. Extensive number of API routes using the Next.js standard and TypeORM conventions. This app covers everything related to an University's flow of work.",
+      technologies: [
+        "Nest.js",
+        "Next.js",
+        "TypeORM",
+        "Typescript",
+        "API",
+        "PostgreSQL",
+      ],
+      image: "/Confidential.png",
     },
     {
       id: 8,
       title: "Weather APP",
-      description: "Software for checking the temperature, chances of rain and wind-speed in real time. Using Open Weather API, which gathers data live from weather stations. It features a Select2 type searchbox that allows the user to search by city name.",
+      description:
+        "Software for checking the temperature, chances of rain and wind-speed in real time. Using Open Weather API, which gathers data live from weather stations. It features a Select2 type searchbox that allows the user to search by city name.",
       technologies: ["OpenWeatherMap API", "HTML", "JavaScript", "CSS"],
       githubUrl: "https://github.com/VladSoltaniuc/Weather-App",
-      detailsUrl: "https://github.com/VladSoltaniuc/Weather-App/blob/main/Weather%20APP.JPG",
-      image: "/Weather APP.jpeg"
+      detailsUrl:
+        "https://github.com/VladSoltaniuc/Weather-App/blob/main/Weather%20APP.JPG",
+      image: "/Weather APP.jpeg",
     },
     {
       id: 9,
       title: "Sales CRM",
-      description: "Cloud Software designed to help companies organize their large amount of data. Offering multi-tennant Invoicing, Stocks, Finance, Notifications, Logs, Import/Export etc. Featuring modularized sections that can be enable/disabled based on user requirements via roles and permissions.",
+      description:
+        "Cloud Software designed to help companies organize their large amount of data. Offering multi-tennant Invoicing, Stocks, Finance, Notifications, Logs, Import/Export etc. Featuring modularized sections that can be enable/disabled based on user requirements via roles and permissions.",
       technologies: [".Net", "C#", "API", "SQL", "HTML", "JavaScript", "CSS"],
-      image: "/Confidential.png"
+      image: "/Confidential.png",
     },
     {
       id: 10,
       title: "Car Helper",
-      description: "Cloud Software designed to manage Car information, such as distance traveled, plate number, VIN and repair history. It comes integrated with the official API given by the car administrative association, which requires auto service owners to share car information.",
+      description:
+        "Cloud Software designed to manage Car information, such as distance traveled, plate number, VIN and repair history. It comes integrated with the official API given by the car administrative association, which requires auto service owners to share car information.",
       technologies: [".Net", "C#", "API", "HTML", "SQL", "JavaScript", "CSS"],
-      image: "/Confidential.png"
+      image: "/Confidential.png",
     },
     {
       id: 11,
       title: "Area31",
-      description: "Award winning project made for 3ITC's programmers contest. It features a laser gun that interacts differently based on the surface you shoot at. After introducing the player through a short tutorial, you are faced with a series of puzzles where you have to use your wit and imagination to pass. Can you succeed? More importantly, will you find the hidden Golden Trophy? Click on 'Details' for dowload instructions.",
+      description:
+        "Award winning project made for 3ITC's programmers contest. It features a laser gun that interacts differently based on the surface you shoot at. After introducing the player through a short tutorial, you are faced with a series of puzzles where you have to use your wit and imagination to pass. Can you succeed? More importantly, will you find the hidden Golden Trophy? Click on 'Details' for dowload instructions.",
       technologies: ["Unreal Engine 4", "UE Build System", "Blueprints"],
       githubUrl: "https://github.com/VladSoltaniuc/Area31",
-      detailsUrl: "https://github.com/VladSoltaniuc/Area31/blob/master/GameplayArena31.3gp",
-      image: "/Area1.jpg"
+      detailsUrl:
+        "https://github.com/VladSoltaniuc/Area31/blob/master/GameplayArena31.3gp",
+      image: "/Area1.jpg",
     },
     {
       id: 12,
       title: "Cubsain",
-      description: "A race against time, a game where you play as a cube traveling through an unknown land of obstacles and rewards. Will you reach the end until the time runs out? Good luck! Click on 'Details' and then 'View raw' to dowload the installer.",
+      description:
+        "A race against time, a game where you play as a cube traveling through an unknown land of obstacles and rewards. Will you reach the end until the time runs out? Good luck! Click on 'Details' and then 'View raw' to dowload the installer.",
       technologies: ["Unity 2020.3", "C#"],
       githubUrl: "https://github.com/VladSoltaniuc/CUBSAIN",
-      detailsUrl: "https://github.com/VladSoltaniuc/CUBSAIN/blob/main/Gameplay.mp4",
-      image: "/Cubesain.jpg"
+      detailsUrl:
+        "https://github.com/VladSoltaniuc/CUBSAIN/blob/main/Gameplay.mp4",
+      image: "/Cubesain.jpg",
     },
     {
       id: 13,
       title: "Coming Soon",
-      description: "-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+      description:
+        "-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
       technologies: [],
       githubUrl: "",
       detailsUrl: "",
-      image: "/ComingSoon.png"
+      image: "/ComingSoon.png",
     },
   ];
 
   const skills: Skill[] = [
-    {level: 70, name: ".Net MVC" },
-    {level: 70, name: "SSMS" },   
-    {level: 70, name: "C#" },     
-    {level: 70, name: "SQL" },       
-    {level: 70, name: "REST API" },         
-    {level: 50, name: "TypeScript" },
-    {level: 50, name: "TypeORM" },             
-    {level: 50, name: "JavaScript" },
-    {level: 50, name: "MongoDB" },           
-    {level: 50, name: "PostgreSQL" },
-    {level: 50, name: "Nest.js" },     
-    {level: 100, name: "English" },
-    {level: 100, name: "Research" },
-    {level: 100, name: "Communication" },
-    {level: 70, name: "CSS" },
-    {level: 50, name: "HTML" },
-    {level: 30, name: "Next.js" },
-    {level: 30, name: "React" },
-    {level: 30, name: "UnrealEngine4" },
-    {level: 30, name: "Unity" },
-    {level: 20, name: "Python" },
-    {level: 20, name: "A.I. Integration" },  
-    {level: 20, name: "A.I. Machine Learning" },
-    {level: 10, name: "Leaflet" },
+    { level: 70, name: ".Net MVC" },
+    { level: 70, name: "SSMS" },
+    { level: 70, name: "C#" },
+    { level: 70, name: "SQL" },
+    { level: 70, name: "REST API" },
+    { level: 50, name: "TypeScript" },
+    { level: 50, name: "TypeORM" },
+    { level: 50, name: "JavaScript" },
+    { level: 50, name: "MongoDB" },
+    { level: 50, name: "PostgreSQL" },
+    { level: 50, name: "Nest.js" },
+    { level: 100, name: "English" },
+    { level: 100, name: "Research" },
+    { level: 100, name: "Communication" },
+    { level: 70, name: "CSS" },
+    { level: 50, name: "HTML" },
+    { level: 30, name: "Next.js" },
+    { level: 30, name: "React" },
+    { level: 30, name: "UnrealEngine4" },
+    { level: 30, name: "Unity" },
+    { level: 20, name: "Python" },
+    { level: 20, name: "A.I. Integration" },
+    { level: 20, name: "A.I. Machine Learning" },
+    { level: 10, name: "Leaflet" },
   ];
 
   const scrollToSection = (sectionId: string): void => {
     const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({ behavior: "smooth" });
     }
     setIsMenuOpen(false);
   };
@@ -178,22 +239,44 @@ const Portfolio: React.FC = () => {
               <div className="hidden md:block">
                 <span className="text-white font-medium">Analyze. </span>
                 <span className="text-white font-medium">Code. </span>
-                <span className="text-green-400 font-medium italic">Create. </span>
+                <span className="text-green-400 font-medium italic">
+                  Create.{" "}
+                </span>
                 <span className="text-white font-medium">Innovate.</span>
               </div>
             </div>
-            
+
             {/* Desktop Navigation */}
-            <div className="hidden md:flex space-x-8">
-              {['home','quotes', 'projects', 'skills', 'contact'].map((item) => (
-                <button
-                  key={item}
-                  onClick={() => scrollToSection(item)}
-                  className="text-gray-300 hover:text-white transition-colors capitalize font-medium"
-                >
-                  {item}
-                </button>
-              ))}
+            <div className="hidden md:flex items-center space-x-6">
+              <a
+                href="https://algorithms.vlad-soltaniuc.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="featured-link flex items-center gap-2 bg-green-600 text-white px-4 py-2 rounded-lg font-bold text-sm border border-green-400/50 hover:bg-green-500 transition-all transform hover:scale-105"
+              >
+                <ExternalLink size={14} />
+                Learn algorithms
+              </a>
+              <a
+                href="https://trends.vlad-soltaniuc.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="featured-link flex items-center gap-2 bg-green-600 text-white px-4 py-2 rounded-lg font-bold text-sm border border-green-400/50 hover:bg-green-500 transition-all transform hover:scale-105"
+              >
+                <ExternalLink size={14} />
+                Trends Identifier
+              </a>
+              {["home", "quotes", "projects", "skills", "contact"].map(
+                (item) => (
+                  <button
+                    key={item}
+                    onClick={() => scrollToSection(item)}
+                    className="text-gray-300 hover:text-white transition-colors capitalize font-medium"
+                  >
+                    {item}
+                  </button>
+                ),
+              )}
             </div>
 
             {/* Mobile Navigation Toggle */}
@@ -213,25 +296,50 @@ const Portfolio: React.FC = () => {
               <div className="text-center py-2 border-b border-gray-700 mb-2">
                 <span className="text-white font-medium">Analyze. </span>
                 <span className="text-white font-medium">Code. </span>
-                <span className="text-green-400 font-medium italic">Create. </span>
+                <span className="text-green-400 font-medium italic">
+                  Create.{" "}
+                </span>
                 <span className="text-white font-medium">Innovate.</span>
               </div>
-              {['home', 'quotes', 'projects', 'skills', 'contact'].map((item) => (
-                <button
-                  key={item}
-                  onClick={() => scrollToSection(item)}
-                  className="block px-3 py-2 text-gray-300 hover:text-white transition-colors capitalize w-full text-left hover:bg-gray-800/50 rounded font-medium"
-                >
-                  {item}
-                </button>
-              ))}
+              <a
+                href="https://algorithms.vlad-soltaniuc.com/array/bubble-sort"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="featured-link flex items-center justify-center gap-2 bg-green-600 text-white px-4 py-2 rounded-lg font-bold text-sm border border-green-400/50 hover:bg-green-500 transition-all mx-2 mb-1"
+              >
+                <ExternalLink size={14} />
+                Algorithms
+              </a>
+              <a
+                href="https://trends.vlad-soltaniuc.com/array/bubble-sort"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="featured-link flex items-center justify-center gap-2 bg-green-600 text-white px-4 py-2 rounded-lg font-bold text-sm border border-green-400/50 hover:bg-green-500 transition-all mx-2 mb-2"
+              >
+                <ExternalLink size={14} />
+                Trends Identifier
+              </a>
+              {["home", "quotes", "projects", "skills", "contact"].map(
+                (item) => (
+                  <button
+                    key={item}
+                    onClick={() => scrollToSection(item)}
+                    className="block px-3 py-2 text-gray-300 hover:text-white transition-colors capitalize w-full text-left hover:bg-gray-800/50 rounded font-medium"
+                  >
+                    {item}
+                  </button>
+                ),
+              )}
             </div>
           </div>
         )}
       </nav>
 
       {/* Hero + About Combined Section */}
-      <section id="home" className="min-h-screen flex items-center justify-center px-4 py-20">
+      <section
+        id="home"
+        className="min-h-screen flex items-center justify-center px-4 py-20"
+      >
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             {/* Left Side - Hero/Introduction */}
@@ -249,18 +357,30 @@ const Portfolio: React.FC = () => {
                 Developer
               </p>
               <div className="flex justify-center lg:justify-center space-x-6 mb-8">
-                <a href="https://github.com/VladSoltaniuc" className="text-gray-300 hover:text-white transition-colors hover:scale-110 transform" target="_blank">
+                <a
+                  href="https://github.com/VladSoltaniuc"
+                  className="text-gray-300 hover:text-white transition-colors hover:scale-110 transform"
+                  target="_blank"
+                >
                   <Github size={24} />
                 </a>
-                <a href="https://www.linkedin.com/in/vlad-soltaniuc-048ba2172/" className="text-gray-300 hover:text-white transition-colors hover:scale-110 transform" target="_blank">
+                <a
+                  href="https://www.linkedin.com/in/vlad-soltaniuc-048ba2172/"
+                  className="text-gray-300 hover:text-white transition-colors hover:scale-110 transform"
+                  target="_blank"
+                >
                   <Linkedin size={24} />
                 </a>
-                <a href="mailto:i.vlad55@yahoo.com" target="_blank" className="text-gray-300 hover:text-white transition-colors hover:scale-110 transform">
+                <a
+                  href="mailto:i.vlad55@yahoo.com"
+                  target="_blank"
+                  className="text-gray-300 hover:text-white transition-colors hover:scale-110 transform"
+                >
                   <Mail size={24} />
                 </a>
               </div>
               <button
-                onClick={() => scrollToSection('projects')}
+                onClick={() => scrollToSection("projects")}
                 className="bg-gradient-to-r from-green-600 to-dark-500 text-white px-8 py-3 rounded-lg hover:from-green-700 hover:to-dark-600 transition-all transform hover:scale-105 font-medium shadow-lg"
               >
                 View My Work
@@ -268,27 +388,40 @@ const Portfolio: React.FC = () => {
             </div>
             {/* Right Side - About Me */}
             <div>
-            <br />
+              <br />
               <div className="bg-slate-800/80 backdrop-blur-md rounded-xl p-8 border border-slate-700/50 shadow-xl">
                 <p className="text-gray-300 text-lg leading-relaxed">
-                  Software Developing isn't just a <b>Job</b>, it's a <b>Hobby</b>, a <b>Choice</b> to always be improving. My goal is to become a <b>Full Stack</b> developer. With my already solid <b>Backend</b> skills and current projects that improve my <b>Frontend</b>, I'll get there in no time. 
-                  <br/>
-                  <br/>
-                  On the side I'm learning A.I. and since I wanted to understand what's under the hood, I completed courses like <b>nVidia A.I. practical course</b> and with this knowledge I created some cool <b>projects involving A.I. models</b>. (<i>more on those below</i>)
-                </p>
-                <br/>
-                <p className="text-gray-300 text-lg leading-relaxed">
-                  I have over <b>2 years of professional experience</b> creating solutions for fields like <b>Security</b>, <b>Education</b>, <b>Medical</b>, <b>Commercial</b> etc. 
-                  <br/>
-                  <br/>
-                  <b>What makes a team great ?</b> The mindset, inserting yourself seamlessly into an already existing ecosystem, bring a plus to the table.
+                  Software Developing isn't just a <b>Job</b>, it's a{" "}
+                  <b>Hobby</b>, a <b>Choice</b> to always be improving. My goal
+                  is to become a <b>Full Stack</b> developer. With my already
+                  solid <b>Backend</b> skills and current projects that improve
+                  my <b>Frontend</b>, I'll get there in no time.
+                  <br />
+                  <br />
+                  On the side I'm learning A.I. and since I wanted to understand
+                  what's under the hood, I completed courses like{" "}
+                  <b>nVidia A.I. practical course</b> and with this knowledge I
+                  created some cool <b>projects involving A.I. models</b>. (
+                  <i>more on those below</i>)
                 </p>
                 <br />
                 <p className="text-gray-300 text-lg leading-relaxed">
-                  When I'm not coding, you can find me playing guitar, recording songs, going outside or on a mountain trip.
+                  I have over <b>2 years of professional experience</b> creating
+                  solutions for fields like <b>Security</b>, <b>Education</b>,{" "}
+                  <b>Medical</b>, <b>Commercial</b> etc.
+                  <br />
+                  <br />
+                  <b>What makes a team great ?</b> The mindset, inserting
+                  yourself seamlessly into an already existing ecosystem, bring
+                  a plus to the table.
+                </p>
+                <br />
+                <p className="text-gray-300 text-lg leading-relaxed">
+                  When I'm not coding, you can find me playing guitar, recording
+                  songs, going outside or on a mountain trip.
                 </p>
               </div>
-                <br />
+              <br />
             </div>
           </div>
         </div>
@@ -297,44 +430,51 @@ const Portfolio: React.FC = () => {
       {/* Quotes Section */}
       <section id="quotes" className="py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold text-white mb-12 text-center">Quotes I will always remember</h2>
+          <h2 className="text-4xl font-bold text-white mb-12 text-center">
+            Quotes I will always remember
+          </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-slate-800/80 backdrop-blur-md rounded-xl p-6 border border-slate-700/50 shadow-xl">
               <div className="text-6xl text-green-400 mb-4">"</div>
               <p className="text-gray-300 text-lg italic mb-4">
-                "The road ahead is a hard one, but becoming a Developer unlocks endless posibilities." (Translated)
+                "The road ahead is a hard one, but becoming a Developer unlocks
+                endless posibilities." (Translated)
               </p>
               <p className="text-green-400 font-medium">— Daniela Schiopu</p>
             </div>
             <div className="bg-slate-800/80 backdrop-blur-md rounded-xl p-6 border border-slate-700/50 shadow-xl">
               <div className="text-6xl text-green-400 mb-4">"</div>
               <p className="text-gray-300 text-lg italic mb-4">
-                "If it seems like a common problem, most likely someone already found the solution." (Translated)
+                "If it seems like a common problem, most likely someone already
+                found the solution." (Translated)
               </p>
               <p className="text-green-400 font-medium">— Vlad Lepadatu</p>
             </div>
             <div className="bg-slate-800/80 backdrop-blur-md rounded-xl p-6 border border-slate-700/50 shadow-xl">
               <div className="text-6xl text-green-400 mb-4">"</div>
               <p className="text-gray-300 text-lg italic mb-4">
-                "With only a few lines of code, your vision can become reality." (Translated)
+                "With only a few lines of code, your vision can become reality."
+                (Translated)
               </p>
               <p className="text-green-400 font-medium">— Constantin Scheau</p>
             </div>
             <div className="bg-slate-800/80 backdrop-blur-md rounded-xl p-6 border border-slate-700/50 shadow-xl">
               <div className="text-6xl text-green-400 mb-4">"</div>
               <p className="text-gray-300 text-lg italic mb-4">
-                "Creativity is crucial, but let's not reinvent the wheel." (Translated)
+                "Creativity is crucial, but let's not reinvent the wheel."
+                (Translated)
               </p>
               <p className="text-green-400 font-medium">— Andrei Ristea </p>
             </div>
             <div className="bg-slate-800/80 backdrop-blur-md rounded-xl p-6 border border-slate-700/50 shadow-xl">
               <div className="text-6xl text-green-400 mb-4">"</div>
               <p className="text-gray-300 text-lg italic mb-4">
-                "Anything can be achieved given time and determination." (Translated)
+                "Anything can be achieved given time and determination."
+                (Translated)
               </p>
               <p className="text-green-400 font-medium">— Vlad Soltaniuc</p>
             </div>
-            
+
             <div className="bg-slate-800/80 backdrop-blur-md rounded-xl p-6 border border-slate-700/50 shadow-xl">
               <div className="text-6xl text-green-400 mb-4">"</div>
               <p className="text-gray-300 text-lg italic mb-4">
@@ -349,34 +489,52 @@ const Portfolio: React.FC = () => {
       {/* Projects Section */}
       <section id="projects" className="py-20 px-4">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl font-bold text-white mb-12 text-center">Projects</h2>
+          <h2 className="text-4xl font-bold text-white mb-12 text-center">
+            Projects
+          </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project) => (
-              <div key={project.id} className="bg-slate-800/80 backdrop-blur-md rounded-xl overflow-hidden hover:transform hover:scale-105 transition-all border border-slate-700/50 shadow-xl">
-                <img 
-                  src={project.image} 
+              <div
+                key={project.id}
+                className="bg-slate-800/80 backdrop-blur-md rounded-xl overflow-hidden hover:transform hover:scale-105 transition-all border border-slate-700/50 shadow-xl"
+              >
+                <img
+                  src={project.image}
                   alt={project.title}
                   className="w-full h-48 object-cover"
                 />
                 <div className="p-6">
-                  <h3 className="text-xl font-bold text-white mb-3">{project.title}</h3>
+                  <h3 className="text-xl font-bold text-white mb-3">
+                    {project.title}
+                  </h3>
                   <p className="text-gray-300 mb-4">{project.description}</p>
                   <div className="flex flex-wrap gap-2 mb-4">
                     {project.technologies.map((tech) => (
-                      <span key={tech} className="bg-green-600/20 text-green-400 px-3 py-1 rounded-full text-sm border border-green-400/30">
+                      <span
+                        key={tech}
+                        className="bg-green-600/20 text-green-400 px-3 py-1 rounded-full text-sm border border-green-400/30"
+                      >
                         {tech}
                       </span>
                     ))}
                   </div>
                   <div className="flex space-x-4">
                     {project.githubUrl && (
-                      <a href={project.githubUrl} target="_blank" className="flex items-center text-green-400 hover:text-blue-400 transition-colors">
+                      <a
+                        href={project.githubUrl}
+                        target="_blank"
+                        className="flex items-center text-green-400 hover:text-blue-400 transition-colors"
+                      >
                         <Github size={16} className="mr-1" />
                         Code
                       </a>
                     )}
                     {project.detailsUrl && (
-                      <a href={project.detailsUrl} target="_blank" className="flex items-center text-green-400 hover:text-blue-400 transition-colors">
+                      <a
+                        href={project.detailsUrl}
+                        target="_blank"
+                        className="flex items-center text-green-400 hover:text-blue-400 transition-colors"
+                      >
                         <ExternalLink size={16} className="mr-1" />
                         Details
                       </a>
@@ -392,16 +550,21 @@ const Portfolio: React.FC = () => {
       {/* Skills Section */}
       <section id="skills" className="py-20 px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-bold text-white mb-12 text-center">Skills</h2>
+          <h2 className="text-4xl font-bold text-white mb-12 text-center">
+            Skills
+          </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {skills.map((skill) => (
-              <div key={skill.name} className="bg-slate-800/80 backdrop-blur-md rounded-xl p-6 border border-slate-700/50 shadow-xl">
+              <div
+                key={skill.name}
+                className="bg-slate-800/80 backdrop-blur-md rounded-xl p-6 border border-slate-700/50 shadow-xl"
+              >
                 <div className="flex justify-between items-center mb-2">
                   <span className="text-white font-medium">{skill.name}</span>
                   <span className="text-gray-300">{skill.level}%</span>
                 </div>
                 <div className="w-full bg-gray-700 rounded-full h-3">
-                  <div 
+                  <div
                     className="bg-gradient-to-r from-green-600 to-green-400 h-3 rounded-full transition-all duration-1000"
                     style={{ width: `${skill.level}%` }}
                   ></div>
@@ -415,14 +578,16 @@ const Portfolio: React.FC = () => {
       {/* Contact Section */}
       <section id="contact" className="py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold text-white mb-12 text-center">Let's Connect</h2>
-          
+          <h2 className="text-4xl font-bold text-white mb-12 text-center">
+            Let's Connect
+          </h2>
+
           {/* Main Contact Cards */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             {/* Email Card */}
-            <div 
+            <div
               className="bg-gradient-to-br from-slate-800/90 to-slate-900/90 backdrop-blur-md rounded-xl p-8 border border-slate-700/50 shadow-xl hover:transform hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer group"
-              onClick={() => window.open('mailto:i.vlad55@yahoo.com', '_blank')}
+              onClick={() => window.open("mailto:i.vlad55@yahoo.com", "_blank")}
             >
               <div className="flex flex-col items-center text-center">
                 <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-green-400 rounded-full flex items-center justify-center mb-4 group-hover:rotate-12 transition-transform duration-300">
@@ -432,15 +597,22 @@ const Portfolio: React.FC = () => {
                 <p className="text-gray-300 mb-3">Drop me a line</p>
                 <p className="text-green-400 font-medium">i.vlad55@yahoo.com</p>
                 <div className="mt-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <span className="text-sm text-gray-400">Click to open email client</span>
+                  <span className="text-sm text-gray-400">
+                    Click to open email client
+                  </span>
                 </div>
               </div>
             </div>
 
             {/* Location Card */}
-            <div 
+            <div
               className="bg-gradient-to-br from-slate-800/90 to-slate-900/90 backdrop-blur-md rounded-xl p-8 border border-slate-700/50 shadow-xl hover:transform hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer group"
-              onClick={() => window.open('https://maps.google.com/?q=Bucharest,Romania', '_blank')} 
+              onClick={() =>
+                window.open(
+                  "https://maps.google.com/?q=Bucharest,Romania",
+                  "_blank",
+                )
+              }
             >
               <div className="flex flex-col items-center text-center">
                 <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-purple-400 rounded-full flex items-center justify-center mb-4 group-hover:rotate-12 transition-transform duration-300">
@@ -448,9 +620,13 @@ const Portfolio: React.FC = () => {
                 </div>
                 <h3 className="text-xl font-bold text-white mb-2">Location</h3>
                 <p className="text-gray-300 mb-3">Based in</p>
-                <p className="text-purple-400 font-medium">Bucharest, Romania</p>
+                <p className="text-purple-400 font-medium">
+                  Bucharest, Romania
+                </p>
                 <div className="mt-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <span className="text-sm text-gray-400">Click to view on map</span>
+                  <span className="text-sm text-gray-400">
+                    Click to view on map
+                  </span>
                 </div>
               </div>
             </div>
@@ -458,38 +634,47 @@ const Portfolio: React.FC = () => {
 
           {/* Social Links Section */}
           <div className="bg-slate-800/80 backdrop-blur-md rounded-xl p-8 border border-slate-700/50 shadow-xl">
-            <h3 className="text-2xl font-bold text-white mb-6 text-center">Find Me Online</h3>
+            <h3 className="text-2xl font-bold text-white mb-6 text-center">
+              Find Me Online
+            </h3>
             <div className="flex justify-center space-x-8">
-              <a 
-                href="https://github.com/VladSoltaniuc" 
+              <a
+                href="https://github.com/VladSoltaniuc"
                 target="_blank"
                 className="group flex flex-col items-center p-4 rounded-lg hover:bg-slate-700/50 transition-all duration-300"
               >
                 <div className="w-12 h-12 bg-gradient-to-r from-gray-600 to-gray-500 rounded-full flex items-center justify-center mb-2 group-hover:scale-110 transition-transform duration-300">
                   <Github className="text-white" size={20} />
                 </div>
-                <span className="text-gray-300 group-hover:text-white transition-colors">GitHub</span>
+                <span className="text-gray-300 group-hover:text-white transition-colors">
+                  GitHub
+                </span>
               </a>
-              
-              <a 
-                href="https://www.linkedin.com/in/vlad-soltaniuc-048ba2172/" 
+
+              <a
+                href="https://www.linkedin.com/in/vlad-soltaniuc-048ba2172/"
                 target="_blank"
                 className="group flex flex-col items-center p-4 rounded-lg hover:bg-slate-700/50 transition-all duration-300"
               >
                 <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-blue-500 rounded-full flex items-center justify-center mb-2 group-hover:scale-110 transition-transform duration-300">
                   <Linkedin className="text-white" size={20} />
                 </div>
-                <span className="text-gray-300 group-hover:text-white transition-colors">LinkedIn</span>
+                <span className="text-gray-300 group-hover:text-white transition-colors">
+                  LinkedIn
+                </span>
               </a>
-              
-              <a 
-                href="mailto:i.vlad55@yahoo.com" target="_blank"
+
+              <a
+                href="mailto:i.vlad55@yahoo.com"
+                target="_blank"
                 className="group flex flex-col items-center p-4 rounded-lg hover:bg-slate-700/50 transition-all duration-300"
               >
                 <div className="w-12 h-12 bg-gradient-to-r from-red-600 to-red-500 rounded-full flex items-center justify-center mb-2 group-hover:scale-110 transition-transform duration-300">
                   <Mail className="text-white" size={20} />
                 </div>
-                <span className="text-gray-300 group-hover:text-white transition-colors">Direct Email</span>
+                <span className="text-gray-300 group-hover:text-white transition-colors">
+                  Direct Email
+                </span>
               </a>
             </div>
           </div>
@@ -497,20 +682,28 @@ const Portfolio: React.FC = () => {
           {/* Call to Action */}
           <div className="text-center mt-12">
             <div className="bg-gradient-to-r from-green-600/20 to-blue-600/20 backdrop-blur-md rounded-xl p-8 border border-green-400/30">
-              <h3 className="text-2xl font-bold text-white mb-4">Ready to Start a Project?</h3>
+              <h3 className="text-2xl font-bold text-white mb-4">
+                Ready to Start a Project?
+              </h3>
               <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
-                Whether you have a specific project in mind or just want to explore possibilities, 
-                I'm always excited to discuss new opportunities and challenges.
+                Whether you have a specific project in mind or just want to
+                explore possibilities, I'm always excited to discuss new
+                opportunities and challenges.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <button
-                  onClick={() => window.open('mailto:i.vlad55@yahoo.com?subject=Project Inquiry', '_blank')}
+                  onClick={() =>
+                    window.open(
+                      "mailto:i.vlad55@yahoo.com?subject=Project Inquiry",
+                      "_blank",
+                    )
+                  }
                   className="bg-gradient-to-r from-green-600 to-green-500 text-white px-8 py-3 rounded-lg hover:from-green-700 hover:to-green-600 transition-all transform hover:scale-105 font-medium shadow-lg"
                 >
                   Start a Conversation
                 </button>
                 <button
-                  onClick={() => scrollToSection('projects')}
+                  onClick={() => scrollToSection("projects")}
                   className="bg-transparent border-2 border-green-400 text-green-400 px-8 py-3 rounded-lg hover:bg-green-400 hover:text-white transition-all transform hover:scale-105 font-medium"
                 >
                   View My Work
@@ -525,12 +718,12 @@ const Portfolio: React.FC = () => {
       <footer className="py-8 px-4 border-t border-gray-700">
         <div className="max-w-7xl mx-auto text-center">
           <p className="text-gray-400">
-            
-                <p className="text-gray-300 text-lg leading-relaxed mb-6">
-                  <code className="text-2xl font-bold text-white mb-8 text-center lg:text-center">
-                    greatProject = [(userOriented + resultFocused) × (askingQuestions + teamplay)] ÷ timeAvailable
-                  </code>
-                </p>
+            <p className="text-gray-300 text-lg leading-relaxed mb-6">
+              <code className="text-2xl font-bold text-white mb-8 text-center lg:text-center">
+                greatProject = [(userOriented + resultFocused) ×
+                (askingQuestions + teamplay)] ÷ timeAvailable
+              </code>
+            </p>
             © 2025 Vlad Soltaniuc. All rights reserved.
           </p>
         </div>

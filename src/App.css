@@ -2,5 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Clean and simple - no extra CSS needed! */
-/* All styling is done with Tailwind classes in the component */
+@keyframes glow-pulse {
+  0%, 100% { box-shadow: 0 0 6px 1px rgba(74, 222, 128, 0.45), 0 0 18px 3px rgba(74, 222, 128, 0.18); }
+  50%       { box-shadow: 0 0 14px 4px rgba(74, 222, 128, 0.75), 0 0 32px 8px rgba(74, 222, 128, 0.3); }
+}
+
+.featured-link {
+  animation: glow-pulse 2.4s ease-in-out infinite;
+}
