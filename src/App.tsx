@@ -182,13 +182,23 @@ const Portfolio: React.FC = () => {
     },
     {
       id: 13,
-      title: "Coming Soon",
+      title: "TrendMap",
       description:
-        "-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
-      technologies: [],
-      githubUrl: "",
-      detailsUrl: "",
-      image: "/ComingSoon.png",
+        "Search any keyword and see its Google Trends history visualized as a chart, then forecast the next 12 months using ML.NET Singular Spectrum Analysis. Features a .NET 8 minimal API backend with Python pytrends data fetching, a React + TypeScript frontend with Recharts, and a 60-minute in-memory cache. Deployed on Railway via a single Docker image.",
+      technologies: [
+        ".NET 8",
+        "C#",
+        "ML.NET",
+        "Python",
+        "React",
+        "TypeScript",
+        "Recharts",
+        "Docker",
+        "Railway",
+      ],
+      githubUrl: "https://github.com/VladSoltaniuc/TrendMap",
+      detailsUrl: "https://trends.vlad-soltaniuc.com",
+      image: "/TrendMap.png",
     },
   ];
 
