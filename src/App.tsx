@@ -15,6 +15,7 @@ interface Project {
   description: string;
   technologies: string[];
   detailsUrl?: string;
+  detailsLabel?: string;
   githubUrl?: string;
   image: string;
 }
@@ -28,6 +29,36 @@ const Portfolio: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
 
   const projects: Project[] = [
+    {
+      id: 13,
+      title: "TrendMap",
+      description:
+        "Search any keyword and see its Google Trends history visualized as a chart, then forecast the next months using Holt-Winters exponential smoothing. Features a .NET 10 controller-based API backend with Node.js google-trends-api data fetching, a React + TypeScript frontend, and a 60-minute in-memory cache. Deployed on Railway.",
+      technologies: [
+        ".NET 10",
+        "C#",
+        "Python",
+        "React",
+        "TypeScript",
+        "Docker",
+        "Railway",
+      ],
+      githubUrl: "https://github.com/VladSoltaniuc/TrendMap",
+      detailsUrl: "https://trends.vlad-soltaniuc.com",
+      detailsLabel: "Website",
+      image: "/TrendMap.png",
+    },
+    {
+      id: 14,
+      title: "Algorithm Visualizer",
+      description:
+        "Interactive visualizer for 30+ algorithms across Sorting, Searching, Trees, Graphs, Dynamic Programming, Backtracking, and more. Each algorithm comes with a step-by-step animated walkthrough, code view, pros & cons, usability rating, and YouTube reference. Built to make computer science concepts approachable and easy to study.",
+      technologies: [".NET", "TypeScript", "HTML", "CSS", "React"],
+      githubUrl: "https://github.com/VladSoltaniuc/algorithm-visualizer",
+      detailsUrl: "https://algorithms.vlad-soltaniuc.com/sort/bubble-sort",
+      detailsLabel: "Website",
+      image: "/AlgorithmVisualizer.png",
+    },
     {
       id: 1,
       title: "German Translator",
@@ -87,6 +118,28 @@ const Portfolio: React.FC = () => {
       image: "/AI.JPG",
     },
 
+    {
+      id: 12,
+      title: "Cubsain",
+      description:
+        "A race against time, a game where you play as a cube traveling through an unknown land of obstacles and rewards. Will you reach the end until the time runs out? Good luck! Click on 'Details' and then 'View raw' to dowload the installer.",
+      technologies: ["Unity 2020.3", "C#"],
+      githubUrl: "https://github.com/VladSoltaniuc/CUBSAIN",
+      detailsUrl:
+        "https://github.com/VladSoltaniuc/CUBSAIN/blob/main/Gameplay.mp4",
+      image: "/Cubesain.jpg",
+    },
+    {
+      id: 11,
+      title: "Area31",
+      description:
+        "Award winning project made for 3ITC's programmers contest. It features a laser gun that interacts differently based on the surface you shoot at. After introducing the player through a short tutorial, you are faced with a series of puzzles where you have to use your wit and imagination to pass. Can you succeed? More importantly, will you find the hidden Golden Trophy? Click on 'Details' for dowload instructions.",
+      technologies: ["Unreal Engine 4", "UE Build System", "Blueprints"],
+      githubUrl: "https://github.com/VladSoltaniuc/Area31",
+      detailsUrl:
+        "https://github.com/VladSoltaniuc/Area31/blob/master/GameplayArena31.3gp",
+      image: "/Area1.jpg",
+    },
     {
       id: 5,
       title: "Security Tracker",
@@ -157,48 +210,6 @@ const Portfolio: React.FC = () => {
         "Cloud Software designed to manage Car information, such as distance traveled, plate number, VIN and repair history. It comes integrated with the official API given by the car administrative association, which requires auto service owners to share car information.",
       technologies: [".Net", "C#", "API", "HTML", "SQL", "JavaScript", "CSS"],
       image: "/Confidential.png",
-    },
-    {
-      id: 11,
-      title: "Area31",
-      description:
-        "Award winning project made for 3ITC's programmers contest. It features a laser gun that interacts differently based on the surface you shoot at. After introducing the player through a short tutorial, you are faced with a series of puzzles where you have to use your wit and imagination to pass. Can you succeed? More importantly, will you find the hidden Golden Trophy? Click on 'Details' for dowload instructions.",
-      technologies: ["Unreal Engine 4", "UE Build System", "Blueprints"],
-      githubUrl: "https://github.com/VladSoltaniuc/Area31",
-      detailsUrl:
-        "https://github.com/VladSoltaniuc/Area31/blob/master/GameplayArena31.3gp",
-      image: "/Area1.jpg",
-    },
-    {
-      id: 12,
-      title: "Cubsain",
-      description:
-        "A race against time, a game where you play as a cube traveling through an unknown land of obstacles and rewards. Will you reach the end until the time runs out? Good luck! Click on 'Details' and then 'View raw' to dowload the installer.",
-      technologies: ["Unity 2020.3", "C#"],
-      githubUrl: "https://github.com/VladSoltaniuc/CUBSAIN",
-      detailsUrl:
-        "https://github.com/VladSoltaniuc/CUBSAIN/blob/main/Gameplay.mp4",
-      image: "/Cubesain.jpg",
-    },
-    {
-      id: 13,
-      title: "TrendMap",
-      description:
-        "Search any keyword and see its Google Trends history visualized as a chart, then forecast the next 12 months using ML.NET Singular Spectrum Analysis. Features a .NET 8 minimal API backend with Python pytrends data fetching, a React + TypeScript frontend with Recharts, and a 60-minute in-memory cache. Deployed on Railway via a single Docker image.",
-      technologies: [
-        ".NET 8",
-        "C#",
-        "ML.NET",
-        "Python",
-        "React",
-        "TypeScript",
-        "Recharts",
-        "Docker",
-        "Railway",
-      ],
-      githubUrl: "https://github.com/VladSoltaniuc/TrendMap",
-      detailsUrl: "https://trends.vlad-soltaniuc.com",
-      image: "/TrendMap.png",
     },
   ];
 
@@ -546,7 +557,7 @@ const Portfolio: React.FC = () => {
                         className="flex items-center text-green-400 hover:text-blue-400 transition-colors"
                       >
                         <ExternalLink size={16} className="mr-1" />
-                        Details
+                        {project.detailsLabel ?? "Details"}
                       </a>
                     )}
                   </div>
