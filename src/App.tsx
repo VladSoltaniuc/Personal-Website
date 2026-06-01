@@ -745,7 +745,7 @@ const Portfolio: React.FC = () => {
                 (askingQuestions + teamplay)] ÷ timeAvailable
               </code>
             </p>
-            © 2025 Vlad Soltaniuc. All rights reserved.
+            © 2026 Vlad Soltaniuc. All rights reserved.
           </p>
         </div>
       </footer>
